@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Koeltoonbanken | Koeltogen — Horecagemak</title>
+<link rel="icon" href="favicon.ico">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=DM+Mono:wght@400;500;700&display=swap');
 
@@ -220,8 +221,8 @@ input,select{font-family:inherit}
   will-change:transform;
 }
 .header-wrap.nav-hidden{transform:translateY(-100%)}
-body{padding-top:110px} /* navbar 72px + trust-bar 38px */
-@media(max-width:768px){body{padding-top:56px}} /* mobile navbar 56px, trust-bar hidden */
+body{padding-top:150px} /* navbar 72px + cat-bar 40px + trust-bar 38px */
+@media(max-width:768px){body{padding-top:56px}} /* mobile navbar 56px, cat-bar+trust-bar hidden */
 
 /* ── NAVBAR ─────────────────────────────────────────────────────── */
 .navbar{
@@ -307,17 +308,35 @@ body{padding-top:110px} /* navbar 72px + trust-bar 38px */
 }
 .cart-total{font-size:13px;font-weight:600;color:#111827}
 
-/* Nav links (hidden on mobile, used in mobile drawer) */
-.nav-links{display:flex;align-items:center;flex:1;height:100%}
-.nav-links li{height:100%;display:flex;align-items:center}
-.nav-links li a{
-  padding:0 13px;font-size:14px;font-weight:500;color:#374151;
+/* ── CATEGORY BAR (desktop only, sits between navbar and trust bar) */
+.cat-bar{
+  background:var(--white);
+  border-bottom:1px solid var(--g200);
+  height:40px;
+}
+.cat-bar .wrap{height:100%}
+body.dark-mode .cat-bar{background:#0A0A0A;border-bottom-color:#2A2A2A}
+
+/* Nav links inside cat-bar */
+.nav-links{
+  list-style:none;margin:0;padding:0;
+  display:flex;align-items:center;justify-content:space-between;
+  height:100%;width:100%;
+}
+.nav-links>li{height:100%;display:flex;align-items:center;position:relative}
+.nav-links>li>a{
+  padding:0 13px;font-size:13.5px;font-weight:500;color:#374151;
   white-space:nowrap;height:100%;display:flex;align-items:center;
-  border-bottom:2px solid transparent;
+  border-bottom:2px solid transparent;text-decoration:none;
   transition:color var(--t) var(--ease),border-color var(--t) var(--ease);
 }
-.nav-links li a:hover{color:var(--accent);border-bottom-color:var(--accent)}
-.nav-links li.active a{color:var(--black);border-bottom-color:var(--black);font-weight:600}
+.nav-links>li>a:hover,
+.nav-links>li.mega-open>a{color:var(--accent);border-bottom-color:var(--accent)}
+.nav-links>li.active>a{color:var(--black);border-bottom-color:var(--black);font-weight:600}
+body.dark-mode .nav-links>li>a{color:#D1D5DB}
+body.dark-mode .nav-links>li>a:hover,
+body.dark-mode .nav-links>li.mega-open>a{color:#93C5FD;border-bottom-color:#93C5FD}
+body.dark-mode .nav-links>li.active>a{color:#F5F5F5;border-bottom-color:#F5F5F5}
 
 /* ── PAGE HEADER ────────────────────────────────────────────────── */
 .page-header{
@@ -435,14 +454,16 @@ body{padding-top:110px} /* navbar 72px + trust-bar 38px */
 .range-input{
   position:absolute;
   top:50%;transform:translateY(-50%);
-  width:100%;height:100%;
-  margin:0;padding:0;
+  /* Shift left by T/2 and widen by T so the thumb centre sits exactly
+     on the track edges at min and max — fixes the "dot floats off edge" bug */
+  left:-9px;width:calc(100% + 18px);
+  height:100%;
+  margin:0;padding:10px 0;
   background:transparent;
   -webkit-appearance:none;appearance:none;
   pointer-events:none;
   outline:none;border:none;
-  /* Extend hit area vertically so thumb is easy to grab */
-  padding:10px 0;box-sizing:content-type;
+  box-sizing:content-box;
 }
 /* ── Webkit thumb ── */
 .range-input::-webkit-slider-runnable-track{background:transparent;height:4px}
@@ -691,10 +712,12 @@ body{padding-top:110px} /* navbar 72px + trust-bar 38px */
 
 /* Price block */
 .price-block{margin-top:auto;padding-top:10px;border-top:1px solid #F3F4F6}
-.was-price{font-size:12px;color:#9CA3AF;text-decoration:line-through;display:inline-block;margin-bottom:1px;font-variant-numeric:tabular-nums}
-.price-main{font-family:var(--mono);font-size:22px;font-weight:700;color:var(--black);display:block;line-height:1.15;letter-spacing:-0.5px;font-variant-numeric:tabular-nums}
-.price-sub{font-size:11px;color:#9CA3AF;display:block;margin-top:1px}
+.price-main-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.was-price{font-family:var(--mono);font-size:13px;color:#9CA3AF;text-decoration:line-through;font-variant-numeric:tabular-nums;flex-shrink:0}
+.price-main{font-family:var(--mono);font-size:22px;font-weight:700;color:#E67E22;line-height:1.15;letter-spacing:-0.5px;font-variant-numeric:tabular-nums;flex-shrink:0}
+.price-sub{font-size:11px;color:#9CA3AF;display:block;margin-top:2px}
 .price-incl{color:#9CA3AF}
+body.dark-mode .price-main{color:#F97316}
 
 .delivery{display:flex;align-items:center;gap:6px;margin-top:10px}
 .delivery svg{width:12px;height:12px;flex-shrink:0;color:var(--g400)}
@@ -1369,7 +1392,8 @@ body.dark-mode .mobile-search-bar{background:#0A0A0A;border-bottom-color:#2A2A2A
 
   /* Navbar: full with search, hide phone number, show login */
   .navbar{height:64px}
-  body{padding-top:102px} /* 64px navbar + 38px trust bar */
+  body{padding-top:102px} /* 64px navbar + 38px trust bar, cat-bar hidden */
+  .cat-bar{display:none !important}
   .nav-search{max-width:340px}
   /* hide phone link on tablet */
   .nav-service{display:none !important}
@@ -1462,7 +1486,7 @@ body.dark-mode .mobile-search-bar{background:#0A0A0A;border-bottom-color:#2A2A2A
   .mobile-search-bar{display:block}
 
   /* Trust / announcement / breadcrumb: hidden */
-  .ann-bar,.trust-bar,.trust-strip{display:none !important}
+  .ann-bar,.trust-bar,.trust-strip,.cat-bar{display:none !important}
   .breadcrumb{display:none !important}
 
   /* Page header */
@@ -1652,7 +1676,7 @@ body.dark-mode .mobile-search-bar{background:#0A0A0A;border-bottom-color:#2A2A2A
   .mobile-search-input{height:40px;font-size:14px}
 
   /* Trust / announcement / breadcrumb: hidden */
-  .ann-bar,.trust-bar,.trust-strip{display:none !important}
+  .ann-bar,.trust-bar,.trust-strip,.cat-bar{display:none !important}
   .breadcrumb{display:none !important}
 
   /* Page header */
@@ -1946,6 +1970,54 @@ body.dark-mode .cart-subtotal-val{color:#F5F5F5}
   100% { transform: scale(1); }
 }
 .cart-badge.badge-bounce { animation: badgeBounce 400ms cubic-bezier(0.36,0.07,0.19,0.97); }
+/* ══ MEGA MENU ══════════════════════════════════════════════════ */
+/* Panel */
+.mega-panel{
+  position:fixed;left:0;right:0;
+  background:var(--white);
+  border-top:2px solid var(--accent);
+  box-shadow:0 16px 48px rgba(0,0,0,.13);
+  z-index:999;
+  padding:28px 0 32px;
+  pointer-events:none;
+  opacity:0;
+  transform:translateY(-6px);
+  transition:opacity 160ms ease,transform 160ms ease;
+  display:block;
+  visibility:hidden;
+}
+.mega-panel.mega-visible{
+  opacity:1;transform:translateY(0);
+  pointer-events:auto;visibility:visible;
+}
+.mega-inner{
+  max-width:1240px;margin:0 auto;padding:0 32px;
+  display:grid;gap:0;
+}
+.mega-col{padding:0 20px;border-right:1px solid var(--g100)}
+.mega-col:last-child{border-right:none}
+.mega-col-title{
+  display:block;font-size:12px;font-weight:700;
+  color:var(--accent);text-decoration:none;
+  text-transform:uppercase;letter-spacing:.06em;
+  margin-bottom:10px;padding-bottom:8px;
+  border-bottom:1px solid var(--g200);
+}
+.mega-col-title:hover{text-decoration:underline}
+.mega-col a{
+  display:block;font-size:13px;font-weight:400;
+  color:#374151;text-decoration:none;
+  padding:3.5px 0;line-height:1.45;
+  transition:color 100ms;
+}
+.mega-col a:hover{color:var(--accent)}
+
+body.dark-mode .mega-panel{background:#111;border-top-color:var(--accent)}
+body.dark-mode .mega-col{border-right-color:#2A2A2A}
+body.dark-mode .mega-col-title{color:#60A5FA}
+body.dark-mode .mega-col a{color:#D1D5DB}
+body.dark-mode .mega-col a:hover{color:#93C5FD}
+
 
 /* ── NAV DRAWER (hamburger menu) ─────────────────────────────────── */
 .nav-overlay{
@@ -2073,6 +2145,13 @@ body.dark-mode .nav-drawer-footer{background:#0A0A0A;border-color:#2A2A2A}
     </div>
   </div>
 </nav>
+
+<!-- ── CATEGORY NAV BAR ──────────────────────────────────────────── -->
+<div class="cat-bar" id="catBar">
+  <div class="wrap">
+    <ul class="nav-links" id="mainNav"></ul>
+  </div>
+</div>
 
 <!-- ── TRUST BAR ─────────────────────────────────────────────────── -->
 <div class="trust-bar">
@@ -3110,6 +3189,16 @@ function pct(excl, was) {
   return o ? Math.round((1 - c/o)*100) : null;
 }
 
+// Dutch price format: "1271" or "1.271" or "1.271,00" → "1.271,-"
+// Non-zero cents stay: "1.537,91" → "1.537,91"
+function fmtPrice(s) {
+  if (!s) return '';
+  s = String(s);
+  if (!s.includes(',')) return s + ',-';
+  if (s.endsWith(',00')) return s.slice(0, -3) + ',-';
+  return s;
+}
+
 function renderCard(p, i) {
   const d = DELIVERY[i % DELIVERY.length];
   const discount = pct(p.excl, p.was);
@@ -3136,9 +3225,11 @@ function renderCard(p, i) {
       <span class="spec-val sku-val">${p.sku}</span>
     </div>
     <div class="price-block">
-      ${hasSale ? `<span class="was-price">€ ${p.was}</span>` : ''}
-      <span class="price-main">€ ${p.excl}</span>
-      <span class="price-sub">excl. BTW <span class="price-incl">€ ${p.incl} incl.</span></span>
+      <div class="price-main-row">
+        ${hasSale ? `<span class="was-price">${fmtPrice(p.was)}</span>` : ''}
+        <span class="price-main">${fmtPrice(p.excl)}</span>
+      </div>
+      <span class="price-sub">excl. BTW &nbsp;<span class="price-incl">${fmtPrice(p.incl)} incl.</span></span>
     </div>
     <div class="card-actions" onclick="event.stopPropagation()">
       <div class="qty">
@@ -3899,15 +3990,14 @@ document.getElementById('productGrid').addEventListener('change', e => {
   function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
 
   function updateFill() {
-    const T   = 18; // thumb diameter in px — must match CSS
     const lo  = parseInt(rMin.value, 10);
     const hi  = parseInt(rMax.value, 10);
     const pLo = (lo - RANGE_MIN) / (RANGE_MAX - RANGE_MIN);
     const pHi = (hi - RANGE_MIN) / (RANGE_MAX - RANGE_MIN);
-    // Offset formula: thumb center = pct*(W-T)+T/2, expressed as calc()
-    // so fill edges align exactly with thumb centres at all positions.
-    fill.style.left  = `calc(${pLo * 100}% - ${pLo * T - T / 2}px)`;
-    fill.style.right = `calc(${(1 - pHi) * 100}% - ${(1 - pHi) * T - T / 2}px)`;
+    // With the -9px / calc(100%+18px) input trick the thumb centre
+    // lands exactly at pLo/pHi of the track width — plain % is correct.
+    fill.style.left  = `${pLo  * 100}%`;
+    fill.style.right = `${(1 - pHi) * 100}%`;
   }
 
   function syncTextFromRanges() {
@@ -4494,6 +4584,134 @@ document.getElementById('productGrid').addEventListener('change', e => {
   // ── Init on load ───────────────────────────────────────────────
   updateBadge();
 })();
+
+// ── MEGA MENU ─────────────────────────────────────────────────────
+(function(){
+  const NAV = [{"name": "Keukenapparatuur", "url": "/keukenapparatuur/", "subs": [{"name": "Aardappel ovens", "url": "/keukenapparatuur/aardappel-ovens/"}, {"name": "aardappelschilmachines", "url": "/keukenapparatuur/aardappelschilmachines/"}, {"name": "Bakplaten | Grillplaten", "url": "/keukenapparatuur/bakplaten-grillplaten/"}, {"name": "Stoomgrills", "url": "/keukenapparatuur/stoomgrills/"}, {"name": "Lavagrills", "url": "/keukenapparatuur/lavagrills/"}, {"name": "Bar Blenders & Milkshakers", "url": "/keukenapparatuur/bar-blenders-milkshakers/"}, {"name": "Barbecues", "url": "/keukenapparatuur/barbecues/"}, {"name": "Bar-/Cocktail Stations", "url": "/keukenapparatuur/bar-cocktail-stations/"}, {"name": "Beenderzagen", "url": "/keukenapparatuur/beenderzagen/"}, {"name": "Braadsledes", "url": "/keukenapparatuur/braadsledes/"}, {"name": "Broodsnijmachines Professioneel", "url": "/keukenapparatuur/broodsnijmachines-professioneel/"}, {"name": "Churros machines", "url": "/keukenapparatuur/churros-machines/"}, {"name": "Sapcentrifuges | Vruchtenpersen", "url": "/keukenapparatuur/sapcentrifuges-vruchtenpersen/"}, {"name": "Combisteamers", "url": "/keukenapparatuur/combisteamers/"}, {"name": "Contactgrills / Panini Grills", "url": "/keukenapparatuur/contactgrills-panini-grills/"}, {"name": "Crêpe-Bakplaten", "url": "/keukenapparatuur/crepe-bakplaten/"}, {"name": "Curryworst Snijders", "url": "/keukenapparatuur/curryworst-snijders/"}, {"name": "Cutters & Toebehoren", "url": "/keukenapparatuur/cutters-toebehoren/"}, {"name": "Deeg Opbolmachine", "url": "/keukenapparatuur/deeg-opbolmachine-11726432/"}, {"name": "Deegmengers | Planeetmengers", "url": "/keukenapparatuur/deegmengers-planeetmengers/"}, {"name": "KitchenAid", "url": "/keukenapparatuur/kitchenaid/"}, {"name": "Deegrollers | Pizzarollers", "url": "/keukenapparatuur/deegrollers-pizzarollers/"}, {"name": "Doorkookplaten", "url": "/keukenapparatuur/doorkookplaten/"}, {"name": "Eierkokers Hotel", "url": "/keukenapparatuur/eierkokers-hotel/"}, {"name": "Fornuizen Horeca", "url": "/keukenapparatuur/fornuizen-horeca/"}, {"name": "Friteuses", "url": "/keukenapparatuur/friteuses/"}, {"name": "Wok Fornuizen", "url": "/keukenapparatuur/wok-fornuizen/"}, {"name": "Gehaktmolens | Vleesmolens", "url": "/keukenapparatuur/gehaktmolens-vleesmolens/"}, {"name": "Groentesnijders", "url": "/keukenapparatuur/groentesnijders/"}, {"name": "Groentewassers", "url": "/keukenapparatuur/groentewassers/"}, {"name": "Hamburgerpers", "url": "/keukenapparatuur/hamburgerpers/"}, {"name": "Heteluchtovens", "url": "/keukenapparatuur/heteluchtovens/"}, {"name": "High Speed Ovens", "url": "/keukenapparatuur/high-speed-ovens/"}, {"name": "Hokkers", "url": "/keukenapparatuur/hokkers/"}, {"name": "Houtskool Ovens | Barbecue BBQ Ovens", "url": "/keukenapparatuur/houtskool-ovens-barbecue-bbq-ovens/"}, {"name": "Drop-In | Inbouwapparatuur", "url": "/keukenapparatuur/drop-in-inbouwapparatuur/"}, {"name": "Inductie Apparatuur", "url": "/keukenapparatuur/inductie-apparatuur/"}, {"name": "Kaasrasp Machines", "url": "/keukenapparatuur/kaasrasp-machines/"}, {"name": "Braadpannen (kantelbaar)", "url": "/keukenapparatuur/braadpannen-kantelbaar/"}, {"name": "Döner-/Shoarma-Apparatuur", "url": "/keukenapparatuur/doener-shoarma-apparatuur/"}, {"name": "Keukentimers", "url": "/keukenapparatuur/keukentimers/"}, {"name": "Kippengrills", "url": "/keukenapparatuur/kippengrills/"}, {"name": "Kooklijnen", "url": "/keukenapparatuur/kooklijnen/"}, {"name": "Kookketels (kantelbaar)", "url": "/keukenapparatuur/kookketels-kantelbaar/"}, {"name": "Magnetrons", "url": "/keukenapparatuur/magnetrons/"}, {"name": "Mossel Wassers", "url": "/keukenapparatuur/mossel-wassers/"}, {"name": "Pastakokers", "url": "/keukenapparatuur/pastakokers-11706341/"}, {"name": "Pastamachines", "url": "/keukenapparatuur/pastamachines/"}, {"name": "Pizza Ovens", "url": "/keukenapparatuur/pizza-ovens/"}, {"name": "Pizzapletters", "url": "/keukenapparatuur/pizzapletters/"}, {"name": "Poffertjespan | Poffertjesplaat", "url": "/keukenapparatuur/poffertjespan-poffertjesplaat/"}, {"name": "Rijskasten", "url": "/keukenapparatuur/rijskasten/"}, {"name": "Rijstkokers", "url": "/keukenapparatuur/rijstkokers/"}, {"name": "Rookkasten | Rookapparaten", "url": "/keukenapparatuur/rookkasten-rookapparaten/"}, {"name": "Sausdispensers", "url": "/keukenapparatuur/sausdispensers/"}, {"name": "Slowcookers", "url": "/keukenapparatuur/slowcookers/"}, {"name": "Slowcook Ovens", "url": "/keukenapparatuur/slowcook-ovens/"}, {"name": "Horeca Staafmixers", "url": "/keukenapparatuur/horeca-staafmixers/"}, {"name": "Teppanyaki Grills", "url": "/keukenapparatuur/teppanyaki-grills/"}, {"name": "Thermoblenders", "url": "/keukenapparatuur/thermoblenders/"}, {"name": "Tandoori gas oven", "url": "/keukenapparatuur/tandoori-gas-oven/"}, {"name": "Tosti-Apparaten | Toasters | Salamanders", "url": "/keukenapparatuur/tosti-apparaten-toasters-salamanders/"}, {"name": "Vacumeermachines", "url": "/keukenapparatuur/vacumeermachines/"}, {"name": "Voedseldrogers", "url": "/keukenapparatuur/voedseldrogers/"}, {"name": "Vlees / Kaassnijmachines", "url": "/keukenapparatuur/vlees-kaassnijmachines/"}, {"name": "Wafelijzers & Toebehoren", "url": "/keukenapparatuur/wafelijzers-toebehoren/"}, {"name": "Waterkokers", "url": "/keukenapparatuur/waterkokers/"}, {"name": "Weegschalen", "url": "/keukenapparatuur/weegschalen/"}, {"name": "Worst Vulmachines en Worstvullers", "url": "/keukenapparatuur/worst-vulmachines-en-worstvullers/"}, {"name": "Worstengrills", "url": "/keukenapparatuur/worstengrills/"}, {"name": "Varipan", "url": "/keukenapparatuur/varipan/"}, {"name": "Vleesmengers", "url": "/keukenapparatuur/vleesmengers/"}, {"name": "Vleesvermalser", "url": "/keukenapparatuur/vleesvermalser/"}, {"name": "Taartdecoratiemachines", "url": "/keukenapparatuur/taartdecoratiemachines/"}]}, {"name": "Koelen & Vriezen", "url": "/koelen-vriezen/", "subs": [{"name": "Koelcellen | Vriescellen", "url": "/koelen-vriezen/koelcellen-vriescellen/"}, {"name": "Koelkasten Horeca", "url": "/koelen-vriezen/koelkasten-horeca/"}, {"name": "Vrieskasten", "url": "/koelen-vriezen/vrieskasten/"}, {"name": "Koeltoonbanken", "url": "/koelen-vriezen/koeltoonbanken/"}, {"name": "Koelwerkbanken", "url": "/koelen-vriezen/koelwerkbanken/"}, {"name": "Saladettes", "url": "/koelen-vriezen/saladettes/"}, {"name": "Pizzawerkbanken", "url": "/koelen-vriezen/pizzawerkbanken/"}, {"name": "Vrieswerkbanken", "url": "/koelen-vriezen/vrieswerkbanken/"}, {"name": "Koel-/Vrieswerkbanken (Combi)", "url": "/koelen-vriezen/koel-vrieswerkbanken-combi/"}, {"name": "IJsblokjesmachines", "url": "/koelen-vriezen/ijsblokjesmachines/"}, {"name": "Vrieskisten", "url": "/koelen-vriezen/vrieskisten/"}, {"name": "Wandkoelingen", "url": "/koelen-vriezen/wandkoelingen/"}, {"name": "Wandvriezers", "url": "/koelen-vriezen/wandvriezers/"}, {"name": "Blastchillers | Snelkoelers | Snelvriezers", "url": "/koelen-vriezen/blastchillers-snelkoelers-snelvriezers/"}, {"name": "IJsvitrines", "url": "/koelen-vriezen/ijsvitrines/"}, {"name": "Opzetkoelvitrines", "url": "/koelen-vriezen/opzetkoelvitrines/"}, {"name": "Medische Koelingen", "url": "/koelen-vriezen/medische-koelingen/"}, {"name": "Barkoelkasten", "url": "/koelen-vriezen/barkoelkasten/"}, {"name": "Drankendispensers (Gekoeld)", "url": "/koelen-vriezen/drankendispensers-gekoeld/"}, {"name": "Droogijsmachines", "url": "/koelen-vriezen/droogijsmachines/"}, {"name": "Gekoeld Buffet | Saladebar", "url": "/koelen-vriezen/gekoeld-buffet-saladebar/"}, {"name": "Glasbevriezers", "url": "/koelen-vriezen/glasbevriezers/"}, {"name": "IJs Teppanyaki", "url": "/koelen-vriezen/ijs-teppanyaki/"}, {"name": "IJscrushers", "url": "/koelen-vriezen/ijscrushers/"}, {"name": "IJsmachines", "url": "/koelen-vriezen/ijsmachines/"}, {"name": "Koelkisten", "url": "/koelen-vriezen/koelkisten/"}, {"name": "Koelplaten", "url": "/koelen-vriezen/koelplaten/"}, {"name": "Koelvitrines", "url": "/koelen-vriezen/koelvitrines/"}, {"name": "Koeleilanden", "url": "/koelen-vriezen/koeleilanden/"}, {"name": "Koel-/Vriesemmers", "url": "/koelen-vriezen/koel-vriesemmers/"}, {"name": "Koelwagens", "url": "/koelen-vriezen/koelwagens/"}, {"name": "Afvalbak-Koelers", "url": "/koelen-vriezen/afvalbak-koelers/"}, {"name": "Koelboxen | Isotherme Boxen", "url": "/koelen-vriezen/koelboxen-isotherme-boxen/"}, {"name": "Mobiele Koelingen", "url": "/koelen-vriezen/mobiele-koelingen/"}, {"name": "Slagroommachines", "url": "/koelen-vriezen/slagroommachines/"}, {"name": "Slush Puppy  & Sorbet Machines", "url": "/koelen-vriezen/slush-puppy-sorbet-machines/"}, {"name": "Sushivitrines | Tapasvitrines", "url": "/koelen-vriezen/sushivitrines-tapasvitrines/"}, {"name": "Vatenkoelers", "url": "/koelen-vriezen/vatenkoelers/"}, {"name": "Vlees Rijpingskasten | Droogkasten", "url": "/koelen-vriezen/vlees-rijpingskasten-droogkasten/"}, {"name": "Vriesvitrines", "url": "/koelen-vriezen/vriesvitrines/"}, {"name": "Drinkwater Fonteinen", "url": "/koelen-vriezen/drinkwater-fonteinen/"}, {"name": "Wijnkoelkasten", "url": "/koelen-vriezen/wijnkoelkasten/"}]}, {"name": "Klein Materiaal", "url": "/klein-materiaal/", "subs": [{"name": "Glaswerk", "url": "/klein-materiaal/glaswerk/"}, {"name": "Servies (Porselein/Keramiek)", "url": "/klein-materiaal/servies-porselein-keramiek/"}, {"name": "Servies (Kunststof)", "url": "/klein-materiaal/servies-kunststof/"}, {"name": "Servies (Melamine)", "url": "/klein-materiaal/servies-melamine/"}, {"name": "Servies (Geëmailleerd)", "url": "/klein-materiaal/servies-geemailleerd/"}, {"name": "Servies (RVS)", "url": "/klein-materiaal/servies-rvs/"}, {"name": "Wegwerp Bekers en -Servies", "url": "/klein-materiaal/wegwerp-bekers-en-servies/"}, {"name": "Aanstekers", "url": "/klein-materiaal/aanstekers/"}, {"name": "Amuse Lepels", "url": "/klein-materiaal/amuse-lepels/"}, {"name": "Asbakken Horeca", "url": "/klein-materiaal/asbakken-horeca/"}, {"name": "Bakvormen", "url": "/klein-materiaal/bakvormen/"}, {"name": "Barartikelen | Cocktail", "url": "/klein-materiaal/barartikelen-cocktail/"}, {"name": "Bestek Horeca", "url": "/klein-materiaal/bestek-horeca/"}, {"name": "Bestekbakken", "url": "/klein-materiaal/bestekbakken/"}, {"name": "Blikopeners", "url": "/klein-materiaal/blikopeners/"}, {"name": "Bonnenhouders", "url": "/klein-materiaal/bonnenhouders/"}, {"name": "Borstels | Schrapers", "url": "/klein-materiaal/borstels-schrapers/"}, {"name": "Brandpasta", "url": "/klein-materiaal/brandpasta/"}, {"name": "Broodmanden", "url": "/klein-materiaal/broodmanden/"}, {"name": "Buffetartikelen", "url": "/klein-materiaal/buffetartikelen/"}, {"name": "Buffetvitrines", "url": "/klein-materiaal/buffetvitrines/"}, {"name": "Cloches", "url": "/klein-materiaal/cloches/"}, {"name": "Creme Brulee Branders", "url": "/klein-materiaal/creme-brulee-branders/"}, {"name": "Deegrollers", "url": "/klein-materiaal/deegrollers/"}, {"name": "Deurschildjes", "url": "/klein-materiaal/deurschildjes/"}, {"name": "Dienbladen", "url": "/klein-materiaal/dienbladen/"}, {"name": "Emmers", "url": "/klein-materiaal/emmers/"}, {"name": "Frituur accessoires", "url": "/klein-materiaal/frituur-accessoires/"}, {"name": "Gardes", "url": "/klein-materiaal/gardes/"}, {"name": "GN Accessoires", "url": "/klein-materiaal/gn-accessoires/"}, {"name": "GN Bakken", "url": "/klein-materiaal/gn-bakken/"}, {"name": "GN Bakken Kunststof", "url": "/klein-materiaal/gn-bakken-kunststof/"}, {"name": "GN Bakken met handvatten", "url": "/klein-materiaal/gn-bakken-met-handvatten/"}, {"name": "GN Bakken Zwart Polycarbonaat", "url": "/klein-materiaal/gn-bakken-zwart-polycarbonaat/"}, {"name": "GN Deksels", "url": "/klein-materiaal/gn-deksels/"}, {"name": "Groentezeven", "url": "/klein-materiaal/groentezeven/"}, {"name": "Kannetjes", "url": "/klein-materiaal/kannetjes/"}, {"name": "Kommen", "url": "/klein-materiaal/kommen/"}, {"name": "Kookkwasten", "url": "/klein-materiaal/kookkwasten/"}, {"name": "Kookwekkers", "url": "/klein-materiaal/kookwekkers/"}, {"name": "Maatbekers", "url": "/klein-materiaal/maatbekers/"}, {"name": "Mandjes", "url": "/klein-materiaal/mandjes/"}, {"name": "Menages | Dispensers", "url": "/klein-materiaal/menages-dispensers/"}, {"name": "Messen | Accessoires", "url": "/klein-materiaal/messen-accessoires/"}, {"name": "Ovenroosters, Bakplaten & Bakblikken", "url": "/klein-materiaal/ovenroosters-bakplaten-bakblikken/"}, {"name": "Ovenschalen", "url": "/klein-materiaal/ovenschalen/"}, {"name": "Ovenwanten", "url": "/klein-materiaal/ovenwanten/"}, {"name": "Pannen", "url": "/klein-materiaal/pannen/"}, {"name": "Patisserie", "url": "/klein-materiaal/patisserie/"}, {"name": "Peper en Zoutmolens", "url": "/klein-materiaal/peper-en-zoutmolens/"}, {"name": "Persen | Stampers", "url": "/klein-materiaal/persen-stampers/"}, {"name": "Pizza Accessoires", "url": "/klein-materiaal/pizza-accessoires/"}, {"name": "Portioneerlepels", "url": "/klein-materiaal/portioneerlepels/"}, {"name": "Presentatie", "url": "/klein-materiaal/presentatie/"}, {"name": "Raspen", "url": "/klein-materiaal/raspen/"}, {"name": "Receptiebellen", "url": "/klein-materiaal/receptiebellen/"}, {"name": "Rekeninghouder", "url": "/klein-materiaal/rekeninghouder/"}, {"name": "Sapkannen", "url": "/klein-materiaal/sapkannen/"}, {"name": "Sausdispensers Flacons", "url": "/klein-materiaal/sausdispensers-flacons/"}, {"name": "Schepwerk | Lepels", "url": "/klein-materiaal/schepwerk-lepels/"}, {"name": "Servettenhouders", "url": "/klein-materiaal/servettenhouders/"}, {"name": "Snijplanken", "url": "/klein-materiaal/snijplanken/"}, {"name": "Slacentrifuges", "url": "/klein-materiaal/slacentrifuges/"}, {"name": "Tafelgerei", "url": "/klein-materiaal/tafelgerei/"}, {"name": "Tafelnummers | Bordjes | Standaarden", "url": "/klein-materiaal/tafelnummers-bordjes-standaarden/"}, {"name": "Tangen Buffet", "url": "/klein-materiaal/tangen-buffet/"}, {"name": "Thee accessoires", "url": "/klein-materiaal/thee-accessoires/"}, {"name": "Toonbank Decoratie", "url": "/klein-materiaal/toonbank-decoratie/"}, {"name": "Trechters", "url": "/klein-materiaal/trechters/"}, {"name": "Vergieten", "url": "/klein-materiaal/vergieten/"}, {"name": "Verpakkingen", "url": "/klein-materiaal/verpakkingen/"}, {"name": "Vitrineplateaus", "url": "/klein-materiaal/vitrineplateaus/"}, {"name": "Vleesbakken", "url": "/klein-materiaal/vleesbakken/"}, {"name": "Vleesbewerking", "url": "/klein-materiaal/vleesbewerking/"}, {"name": "Voorraaddozen Plastic GN | Uitstekende kwaliteit", "url": "/klein-materiaal/voorraaddozen-plastic-gn-uitstekende-kwaliteit/"}, {"name": "Voorraaddozen - Voedselopbergers", "url": "/klein-materiaal/voorraaddozen-voedselopbergers/"}, {"name": "Wijnkoelers | Champagnekoelers", "url": "/klein-materiaal/wijnkoelers-champagnekoelers/"}, {"name": "Winkelscheppen", "url": "/klein-materiaal/winkelscheppen/"}, {"name": "Zeven", "url": "/klein-materiaal/zeven/"}]}, {"name": "Warmhouden", "url": "/warmhouden/", "subs": [{"name": "Bain maries", "url": "/warmhouden/bain-maries/"}, {"name": "Bordenwarmers | Warmhoudkasten", "url": "/warmhouden/bordenwarmers-warmhoudkasten/"}, {"name": "Chafing Dishes", "url": "/warmhouden/chafing-dishes/"}, {"name": "Chocolade dispensers", "url": "/warmhouden/chocolade-dispensers/"}, {"name": "Friet-Warmhouders", "url": "/warmhouden/friet-warmhouders/"}, {"name": "Heet Water Dispensers", "url": "/warmhouden/heet-water-dispensers/"}, {"name": "Kopjesverwarmers", "url": "/warmhouden/kopjesverwarmers/"}, {"name": "Multipannen & Hapjespannen (Elektrisch)", "url": "/warmhouden/multipannen-hapjespannen-elektrisch/"}, {"name": "Percolators", "url": "/warmhouden/percolators/"}, {"name": "Rechauds", "url": "/warmhouden/rechauds/"}, {"name": "Sauzen verwarmer", "url": "/warmhouden/sauzen-verwarmer/"}, {"name": "Soepketels", "url": "/warmhouden/soepketels/"}, {"name": "Sous-vide", "url": "/warmhouden/sous-vide/"}, {"name": "Thermische Containers", "url": "/warmhouden/thermische-containers/"}, {"name": "Thermometers", "url": "/warmhouden/thermometers/"}, {"name": "Thermoskannen", "url": "/warmhouden/thermoskannen/"}, {"name": "Verwarmde Drankendispensers", "url": "/warmhouden/verwarmde-drankendispensers/"}, {"name": "Warmhoudbuffetten", "url": "/warmhouden/warmhoudbuffetten/"}, {"name": "Warmhoudkasten | Warmhoudwagens", "url": "/warmhouden/warmhoudkasten-warmhoudwagens/"}, {"name": "Warmhoudlade Horeca", "url": "/warmhouden/warmhoudlade-horeca/"}, {"name": "Warmhoudlampen", "url": "/warmhouden/warmhoudlampen/"}, {"name": "Warmhoudoven", "url": "/warmhouden/warmhoudoven/"}, {"name": "Warmhoudplaten", "url": "/warmhouden/warmhoudplaten/"}, {"name": "Warmhoud-Toonbanken", "url": "/warmhouden/warmhoud-toonbanken/"}, {"name": "Warmhoudvitrines", "url": "/warmhouden/warmhoudvitrines/"}, {"name": "Warmtebruggen", "url": "/warmhouden/warmtebruggen/"}, {"name": "Worstenwarmers", "url": "/warmhouden/worstenwarmers/"}, {"name": "Warmhoud Gamel RVS", "url": "/warmhouden/warmhoud-gamel-rvs/"}]}, {"name": "Hygiëne & Vaatwassers", "url": "/hygiene-vaatwassers/", "subs": [{"name": "Vaatwassers Horeca", "url": "/hygiene-vaatwassers/vaatwassers-horeca/"}, {"name": "Voorreinigingsmachines", "url": "/hygiene-vaatwassers/voorreinigingsmachines/"}, {"name": "Afwas | Vaatwaskorven", "url": "/hygiene-vaatwassers/afwas-vaatwaskorven/"}, {"name": "Afvalbakken | Afvalcontainers", "url": "/hygiene-vaatwassers/afvalbakken-afvalcontainers-11893838/"}, {"name": "Afvalzakken | Vuilniszakken", "url": "/hygiene-vaatwassers/afvalzakken-vuilniszakken/"}, {"name": "Baby Verschoontafels", "url": "/hygiene-vaatwassers/baby-verschoontafels/"}, {"name": "Beschermwand", "url": "/hygiene-vaatwassers/beschermwand/"}, {"name": "EHBO Koffers", "url": "/hygiene-vaatwassers/ehbo-koffers/"}, {"name": "Haardrogers Hotel", "url": "/hygiene-vaatwassers/haardrogers-hotel/"}, {"name": "Handdrogers", "url": "/hygiene-vaatwassers/handdrogers/"}, {"name": "Handzeep & Navulling", "url": "/hygiene-vaatwassers/handzeep-navulling/"}, {"name": "Haspels", "url": "/hygiene-vaatwassers/haspels/"}, {"name": "Hotel Wasmachines | Drogers", "url": "/hygiene-vaatwassers/hotel-wasmachines-drogers/"}, {"name": "Hygienepapier", "url": "/hygiene-vaatwassers/hygienepapier/"}, {"name": "Insectenverdelgers", "url": "/hygiene-vaatwassers/insectenverdelgers/"}, {"name": "Kranen | Voorspoeldouches", "url": "/hygiene-vaatwassers/kranen-voorspoeldouches/"}, {"name": "Kruimelvegers", "url": "/hygiene-vaatwassers/kruimelvegers/"}, {"name": "Luchtverfrissers", "url": "/hygiene-vaatwassers/luchtverfrissers/"}, {"name": "Mondmasker", "url": "/hygiene-vaatwassers/mondmasker/"}, {"name": "Overige Toilethygiëne", "url": "/hygiene-vaatwassers/overige-toilethygiene/"}, {"name": "Papierdispensers", "url": "/hygiene-vaatwassers/papierdispensers/"}, {"name": "Plexiglas Baliescherm", "url": "/hygiene-vaatwassers/plexiglas-baliescherm/"}, {"name": "Poleermachines", "url": "/hygiene-vaatwassers/poleermachines/"}, {"name": "Reinigingsmiddelen", "url": "/hygiene-vaatwassers/reinigingsmiddelen/"}, {"name": "Rookpalen | Wandasbakken", "url": "/hygiene-vaatwassers/rookpalen-wandasbakken/"}, {"name": "Schoonmaakartikelen", "url": "/hygiene-vaatwassers/schoonmaakartikelen/"}, {"name": "Schoonmaakwagens", "url": "/hygiene-vaatwassers/schoonmaakwagens/"}, {"name": "Sterilisatorkasten", "url": "/hygiene-vaatwassers/sterilisatorkasten/"}, {"name": "Vetputten/-Afscheiders", "url": "/hygiene-vaatwassers/vetputten-afscheiders/"}, {"name": "Vloerputten", "url": "/hygiene-vaatwassers/vloerputten/"}, {"name": "Waarschuwingsborden", "url": "/hygiene-vaatwassers/waarschuwingsborden/"}, {"name": "Wasbakken RVS", "url": "/hygiene-vaatwassers/wasbakken-rvs/"}, {"name": "Waterontharders | Waterfilters", "url": "/hygiene-vaatwassers/waterontharders-waterfilters/"}, {"name": "Zeepdispensers", "url": "/hygiene-vaatwassers/zeepdispensers/"}]}, {"name": "Presentatie", "url": "/presentatie/", "subs": [{"name": "Afzetpaaltjes en Koorden", "url": "/presentatie/afzetpaaltjes-en-koorden/"}, {"name": "Afzetkoorden en Toebehoren", "url": "/presentatie/afzetkoorden-en-toebehoren/"}, {"name": "Afstandhouders", "url": "/presentatie/afstandhouders/"}, {"name": "Deurborden", "url": "/presentatie/deurborden/"}, {"name": "Etalage Ophangsystemen", "url": "/presentatie/etalage-ophangsystemen/"}, {"name": "Kliklijsten", "url": "/presentatie/kliklijsten/"}, {"name": "Krijtbord op Stok", "url": "/presentatie/krijtbord-op-stok/"}, {"name": "Krijtstiften", "url": "/presentatie/krijtstiften/"}, {"name": "Magnetische Wissellijsten", "url": "/presentatie/magnetische-wissellijsten/"}, {"name": "Marktkramen", "url": "/presentatie/marktkramen/"}, {"name": "Menukaarten", "url": "/presentatie/menukaarten/"}, {"name": "Menukaarthouders", "url": "/presentatie/menukaarthouders/"}, {"name": "Menuinsteekmappen / Insteekhoezen", "url": "/presentatie/menuinsteekmappen-insteekhoezen/"}, {"name": "Posterrails", "url": "/presentatie/posterrails/"}, {"name": "Presentatie Ezels", "url": "/presentatie/presentatie-ezels/"}, {"name": "Raam Poster Houder", "url": "/presentatie/raam-poster-houder/"}, {"name": "Silhouet Krijtborden", "url": "/presentatie/silhouet-krijtborden/"}, {"name": "Stoepborden | Krijtborden", "url": "/presentatie/stoepborden-krijtborden/"}, {"name": "Tafel Krijtborden", "url": "/presentatie/tafel-krijtborden/"}, {"name": "Tafelkleden | Tafellinnen", "url": "/presentatie/tafelkleden-tafellinnen/"}, {"name": "Wand krijtborden", "url": "/presentatie/wand-krijtborden/"}, {"name": "Whiteboards", "url": "/presentatie/whiteboards/"}, {"name": "Wijn opbergrekken", "url": "/presentatie/wijn-opbergrekken/"}, {"name": "Overig", "url": "/presentatie/overig/"}]}, {"name": "Afzuiging", "url": "/afzuiging/", "subs": [{"name": "Afzuigkappen Horeca", "url": "/afzuiging/afzuigkappen-horeca/"}, {"name": "Condenskappen", "url": "/afzuiging/condenskappen/"}, {"name": "Afzuigmotoren", "url": "/afzuiging/afzuigmotoren/"}, {"name": "Buizen en hulpstukken", "url": "/afzuiging/buizen-en-hulpstukken/"}, {"name": "Gasgebrekkleppen", "url": "/afzuiging/gasgebrekkleppen/"}, {"name": "Geurfilterkasten", "url": "/afzuiging/geurfilterkasten/"}, {"name": "Magneetkleppen", "url": "/afzuiging/magneetkleppen/"}, {"name": "Roosters", "url": "/afzuiging/roosters/"}, {"name": "Standenregelaars", "url": "/afzuiging/standenregelaars/"}, {"name": "Verlichting voor afzuigkap", "url": "/afzuiging/verlichting-voor-afzuigkap/"}]}, {"name": "RVS", "url": "/rvs/", "subs": [{"name": "RVS Werktafels", "url": "/rvs/rvs-werktafels/"}, {"name": "RVS Spoeltafels", "url": "/rvs/rvs-spoeltafels/"}, {"name": "RVS werkbladen", "url": "/rvs/rvs-werkbladen/"}, {"name": "RVS Wandschappen", "url": "/rvs/rvs-wandschappen/"}, {"name": "RVS Wandkasten", "url": "/rvs/rvs-wandkasten/"}, {"name": "RVS Servieskasten / Opbergkasten", "url": "/rvs/rvs-servieskasten-opbergkasten/"}, {"name": "RVS Stellingen", "url": "/rvs/rvs-stellingen/"}, {"name": "Opbergrekken", "url": "/rvs/opbergrekken/"}, {"name": "REA Kunststof Stellingen", "url": "/rvs/rea-kunststof-stellingen/"}, {"name": "Etageres", "url": "/rvs/etageres/"}, {"name": "Werkunit Neutraal", "url": "/rvs/werkunit-neutraal/"}, {"name": "Hakblokken", "url": "/rvs/hakblokken/"}, {"name": "Onderstellen RVS", "url": "/rvs/onderstellen-rvs/"}, {"name": "Deuren voor onderstel", "url": "/rvs/deuren-voor-onderstel/"}, {"name": "Regaalwagens", "url": "/rvs/regaalwagens/"}, {"name": "RVS Serveerwagens / Transportwagens", "url": "/rvs/rvs-serveerwagens-transportwagens/"}, {"name": "Borden-/Servieswagens", "url": "/rvs/borden-servieswagens/"}, {"name": "Bordenrekken", "url": "/rvs/bordenrekken/"}, {"name": "Crushed Ice Bakken", "url": "/rvs/crushed-ice-bakken/"}, {"name": "Inbouw IJsbakken", "url": "/rvs/inbouw-ijsbakken/"}, {"name": "RVS Accessoires", "url": "/rvs/rvs-accessoires/"}, {"name": "Spoelbakken Los", "url": "/rvs/spoelbakken-los/"}, {"name": "Spoelbakken Accessoires", "url": "/rvs/spoelbakken-accessoires/"}]}, {"name": "Meubilair", "url": "/meubilair/", "subs": [{"name": "Inklapbare Tafels", "url": "/meubilair/inklapbare-tafels/"}, {"name": "Complete Tafels", "url": "/meubilair/complete-tafels/"}, {"name": "Enkele Tafelonderstellen", "url": "/meubilair/enkele-tafelonderstellen/"}, {"name": "Dubbele Tafelonderstellen", "url": "/meubilair/dubbele-tafelonderstellen/"}, {"name": "Rechthoekige Tafelonderstellen", "url": "/meubilair/rechthoekige-tafelonderstellen/"}, {"name": "Tafelbladen", "url": "/meubilair/tafelbladen/"}, {"name": "Neutrale Toonbanken & Kassasecties", "url": "/meubilair/neutrale-toonbanken-kassasecties/"}, {"name": "Tafelverlichting", "url": "/meubilair/tafelverlichting/"}, {"name": "Kandelaars | Kaarsen", "url": "/meubilair/kandelaars-kaarsen/"}, {"name": "Horeca Stoelen & Stoelhoezen", "url": "/meubilair/horeca-stoelen-stoelhoezen/"}, {"name": "Barkrukken", "url": "/meubilair/barkrukken/"}, {"name": "Trolleys Tafels & Stoelen", "url": "/meubilair/trolleys-tafels-stoelen/"}, {"name": "Menukasten & Menustandaarden", "url": "/meubilair/menukasten-menustandaarden/"}, {"name": "Parasols", "url": "/meubilair/parasols/"}, {"name": "Partytenten", "url": "/meubilair/partytenten/"}, {"name": "Terrasverwarmers", "url": "/meubilair/terrasverwarmers/"}, {"name": "Dienstmeubels", "url": "/meubilair/dienstmeubels/"}, {"name": "Kapstokken", "url": "/meubilair/kapstokken/"}, {"name": "Deurmatten", "url": "/meubilair/deurmatten/"}, {"name": "Kantoor-/Bureau-benodigdheden", "url": "/meubilair/kantoor-bureau-benodigdheden/"}, {"name": "Winkelstellingen", "url": "/meubilair/winkelstellingen/"}, {"name": "Schoolmeubilair", "url": "/meubilair/schoolmeubilair/"}, {"name": "Spiegels", "url": "/meubilair/spiegels/"}, {"name": "Project Meubilair", "url": "/meubilair/project-meubilair/"}, {"name": "Beursmaterialen", "url": "/meubilair/beursmaterialen/"}, {"name": "Terras", "url": "/meubilair/terras/"}]}, {"name": "Overig", "url": "/overig/", "subs": [{"name": "Koffiemachines", "url": "/overig/koffiemachines/"}, {"name": "Kassasystemen & Telmachines", "url": "/overig/kassasystemen-telmachines/"}, {"name": "Suikerspinmachines", "url": "/overig/suikerspinmachines/"}, {"name": "Barbecue Accessoires", "url": "/overig/barbecue-accessoires/"}, {"name": "Lavastenen", "url": "/overig/lavastenen/"}, {"name": "Kokskleding | Serveerkleding", "url": "/overig/kokskleding-serveerkleding/"}, {"name": "Beker Dispensers", "url": "/overig/beker-dispensers/"}, {"name": "Hotel Benodigdheden", "url": "/overig/hotel-benodigdheden/"}, {"name": "Kaas en Ham Houders en Raclette Apparaten", "url": "/overig/kaas-en-ham-houders-en-raclette-apparaten/"}, {"name": "Anti Allergeen Horeca", "url": "/overig/anti-allergeen-horeca/"}, {"name": "Labelmachines en Stickers", "url": "/overig/labelmachines-en-stickers/"}, {"name": "Onderdelen", "url": "/overig/onderdelen/"}, {"name": "Overige", "url": "/overig/overige/"}, {"name": "Patatsnijders", "url": "/overig/patatsnijders/"}, {"name": "Paté-Vormen", "url": "/overig/pate-vormen/"}, {"name": "Popcorn Machines", "url": "/overig/popcorn-machines/"}, {"name": "Privacyscherm", "url": "/overig/privacyscherm/"}, {"name": "Schoenpoetsmachines", "url": "/overig/schoenpoetsmachines/"}, {"name": "Slagroomspuiten | Slagroompatronen", "url": "/overig/slagroomspuiten-slagroompatronen/"}, {"name": "Vacuum Verpakkings Zakken", "url": "/overig/vacuum-verpakkings-zakken/"}, {"name": "Folie & Foliedispensers", "url": "/overig/folie-foliedispensers/"}, {"name": "Flambeerwagen", "url": "/overig/flambeerwagen/"}]}];
+  const HEADER_ID = 'headerWrap';
+  const NAV_UL    = document.getElementById('mainNav');
+  if (!NAV_UL) return;
+
+  // Determine top offset from actual header height
+  function panelTop() {
+    const hw = document.getElementById(HEADER_ID);
+    return hw ? hw.getBoundingClientRect().height + 'px' : '110px';
+  }
+
+  let openPanel = null, openLi = null, leaveTimer = null;
+
+  function openMega(li, panel) {
+    if (openPanel && openPanel !== panel) closeMega();
+    clearTimeout(leaveTimer);
+    li.classList.add('mega-open');
+    panel.style.top = panelTop();
+    panel.classList.add('mega-visible');
+    openPanel = panel;
+    openLi    = li;
+  }
+
+  function closeMega() {
+    if (!openPanel) return;
+    if (openLi) openLi.classList.remove('mega-open');
+    openPanel.classList.remove('mega-visible');
+    openPanel = null;
+    openLi    = null;
+  }
+
+  // Build columns for a category
+  function buildCols(subs) {
+    const count = subs.length;
+    const cols  = count <= 12 ? 2 : count <= 24 ? 3 : count <= 40 ? 4 : 5;
+    const perCol = Math.ceil(count / cols);
+    let html = `<div class="mega-inner" style="grid-template-columns:repeat(${cols},1fr)">`;
+    for (let c = 0; c < cols; c++) {
+      const chunk = subs.slice(c * perCol, (c + 1) * perCol);
+      if (!chunk.length) break;
+      html += '<div class="mega-col">';
+      // First item of first column = "Bekijk alle"
+      if (c === 0) {
+        html += `<a class="mega-col-title" href="javascript:void(0)">Bekijk alles &rsaquo;</a>`;
+      }
+      chunk.forEach(s => {
+        html += `<a href="https://www.horecagemak.nl${s.url}" target="_blank" rel="noopener">${s.name}</a>`;
+      });
+      html += '</div>';
+    }
+    html += '</div>';
+    return html;
+  }
+
+  // Build nav items + panels
+  NAV.forEach(cat => {
+    // Nav item
+    const li = document.createElement('li');
+    if (cat.name === 'Koelen & Vriezen') li.classList.add('active');
+    const a  = document.createElement('a');
+    a.href        = 'https://www.horecagemak.nl' + cat.url;
+    a.textContent = cat.name;
+    a.target      = '_blank';
+    a.rel         = 'noopener';
+    li.appendChild(a);
+
+    // Mega panel (only if there are subs)
+    if (cat.subs.length) {
+      const panel = document.createElement('div');
+      panel.className   = 'mega-panel';
+      panel.innerHTML   = buildCols(cat.subs);
+      document.body.appendChild(panel);
+
+      // Hover wiring
+      li.addEventListener('mouseenter', () => openMega(li, panel));
+      li.addEventListener('mouseleave', () => {
+        leaveTimer = setTimeout(closeMega, 120);
+      });
+      panel.addEventListener('mouseenter', () => clearTimeout(leaveTimer));
+      panel.addEventListener('mouseleave', () => {
+        leaveTimer = setTimeout(closeMega, 120);
+      });
+    }
+
+    NAV_UL.appendChild(li);
+  });
+
+  // Close on click outside
+  document.addEventListener('click', e => {
+    if (openPanel && !e.target.closest('.nav-links') && !e.target.closest('.mega-panel')) {
+      closeMega();
+    }
+  });
+
+  // Close when header hides (user scrolled down)
+  const hw = document.getElementById(HEADER_ID);
+  if (hw) {
+    const obs = new MutationObserver(() => {
+      if (hw.classList.contains('nav-hidden') && openPanel) {
+        closeMega();
+      }
+    });
+    obs.observe(hw, { attributes: true, attributeFilter: ['class'] });
+  }
+
+  // ── Mobile nav drawer: replace hardcoded links with real ones ──
+  const navDrawerBody = document.querySelector('#navDrawer .nav-drawer-body');
+  if (navDrawerBody) {
+    let html = '<ul>';
+    NAV.forEach(cat => {
+      html += `<li><a href="https://www.horecagemak.nl${cat.url}" target="_blank" rel="noopener">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        ${cat.name}
+      </a></li>`;
+    });
+    html += '</ul>';
+    html += '<div class="nav-drawer-divider"></div>';
+    html += `<ul>
+      <li><a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> Inloggen</a></li>
+      <li><a href="tel:+31850606072"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.1 1.19 2 2 0 012.08 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.27 7.91a16 16 0 006.72 6.72l1.27-1.08a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg> 085-0606072</a></li>
+    </ul>`;
+    navDrawerBody.innerHTML = html;
+  }
+})();
+
 </script>
 
 <!-- Dark mode toggle — fixed bottom-right, never overlaps any UI -->

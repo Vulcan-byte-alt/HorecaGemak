@@ -1,5 +1,8 @@
 # Python
 scraper.py
+scrape_nav.py
+build_nav.py
+fetch_favicon.py
 venv/
 __pycache__/
 *.pyc
