@@ -1,0 +1,26 @@
+# Python
+scraper.py
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Debug / temp files
+debug_page.html
+
+# Screenshots / working images
+Screenshot*.png
+filters.png
+
+# Claude internal
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

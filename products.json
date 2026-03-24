@@ -1,0 +1,2641 @@
+{
+  "source_url": "https://www.horecagemak.nl/koelen-vriezen/koeltoonbanken/koeltoonbanken-koeltogen/",
+  "scraped_at": "2026-03-23T11:07:58",
+  "total_products": 138,
+  "filters": [
+    {
+      "category": "Prijs",
+      "options": [
+        {
+          "option": "EUR 0 - EUR 15000",
+          "count": null
+        }
+      ]
+    },
+    {
+      "category": "Merken",
+      "options": [
+        {
+          "option": "Arneg",
+          "count": null
+        },
+        {
+          "option": "CombiSteel",
+          "count": null
+        },
+        {
+          "option": "Coreco",
+          "count": null
+        },
+        {
+          "option": "Diamond",
+          "count": null
+        },
+        {
+          "option": "Luxus",
+          "count": null
+        },
+        {
+          "option": "MG Hofmann",
+          "count": null
+        },
+        {
+          "option": "Mafirol",
+          "count": null
+        },
+        {
+          "option": "Mastro",
+          "count": null
+        },
+        {
+          "option": "Maxima",
+          "count": null
+        },
+        {
+          "option": "Oscartielle",
+          "count": null
+        },
+        {
+          "option": "Polar",
+          "count": null
+        },
+        {
+          "option": "SAYL",
+          "count": null
+        },
+        {
+          "option": "Setab",
+          "count": null
+        },
+        {
+          "option": "Tefcold",
+          "count": null
+        },
+        {
+          "option": "UNNICOOL",
+          "count": null
+        }
+      ]
+    },
+    {
+      "category": "Breedte",
+      "options": [
+        {
+          "option": "601 t/m 700 mm",
+          "count": 2
+        },
+        {
+          "option": "901 t/m 1000 mm",
+          "count": 34
+        },
+        {
+          "option": "1001 t/m 1500 mm",
+          "count": 111
+        },
+        {
+          "option": "1501 t/m 1800 mm",
+          "count": 33
+        },
+        {
+          "option": "1801 t/m 2000 mm",
+          "count": 74
+        },
+        {
+          "option": "2001 t/m 2500 mm",
+          "count": 62
+        },
+        {
+          "option": "2501 t/m 3000 mm",
+          "count": 61
+        },
+        {
+          "option": "3001 t/m 3500 mm",
+          "count": 19
+        },
+        {
+          "option": "3501 t/m 4000 mm",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "category": "Diepte",
+      "options": [
+        {
+          "option": "701 t/m 800 mm",
+          "count": 22
+        },
+        {
+          "option": "801 t/m 900 mm",
+          "count": 38
+        },
+        {
+          "option": "901 t/m 1000 mm",
+          "count": 152
+        },
+        {
+          "option": "1001 t/m 1500 mm",
+          "count": 141
+        }
+      ]
+    },
+    {
+      "category": "Hoogte",
+      "options": [
+        {
+          "option": "301 t/m 400 mm",
+          "count": 6
+        },
+        {
+          "option": "501 t/m 600 mm",
+          "count": 3
+        },
+        {
+          "option": "601 t/m 700 mm",
+          "count": 5
+        },
+        {
+          "option": "801 t/m 900 mm",
+          "count": 20
+        },
+        {
+          "option": "901 t/m 1000 mm",
+          "count": 13
+        },
+        {
+          "option": "1001 t/m 1200 mm",
+          "count": 73
+        },
+        {
+          "option": "1201 t/m 1400 mm",
+          "count": 240
+        }
+      ]
+    },
+    {
+      "category": "Uitvoering",
+      "options": [
+        {
+          "option": "Gebogen Glas",
+          "count": 114
+        },
+        {
+          "option": "Recht Glas",
+          "count": 209
+        },
+        {
+          "option": "Zelfbediening",
+          "count": 37
+        }
+      ]
+    },
+    {
+      "category": "Inhoud (Liters)",
+      "options": [
+        {
+          "option": "151 - 200",
+          "count": 1
+        },
+        {
+          "option": "201 - 300",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "Niveaus",
+      "options": [
+        {
+          "option": "1 Niveau",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "category": "Type Koeling",
+      "options": [
+        {
+          "option": "Statisch",
+          "count": 122
+        },
+        {
+          "option": "Geventileerd",
+          "count": 34
+        },
+        {
+          "option": "Geforceerd",
+          "count": 152
+        },
+        {
+          "option": "Plaatkoeling",
+          "count": 35
+        },
+        {
+          "option": "Externe Koeling",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "category": "Temperatuurbereik (°C)",
+      "options": [
+        {
+          "option": "-5ºC | 0ºC",
+          "count": 16
+        },
+        {
+          "option": "-3°C | +3°C",
+          "count": 2
+        },
+        {
+          "option": "-2°C | +7°C",
+          "count": 11
+        },
+        {
+          "option": "-1°C | +5°C",
+          "count": 105
+        },
+        {
+          "option": "0°C | +2°C",
+          "count": 52
+        },
+        {
+          "option": "0ºC | +4ºC",
+          "count": 48
+        },
+        {
+          "option": "0ºC | +5ºC",
+          "count": 3
+        },
+        {
+          "option": "0°C | +7°C",
+          "count": 6
+        },
+        {
+          "option": "+1ºC | +10ºC",
+          "count": 14
+        },
+        {
+          "option": "+2°C  | +5°C",
+          "count": 20
+        },
+        {
+          "option": "+2°C | +8°C",
+          "count": 20
+        },
+        {
+          "option": "+2°C | +12°C",
+          "count": 4
+        },
+        {
+          "option": "+3°C | +5°C",
+          "count": 9
+        },
+        {
+          "option": "+4°C | +6°C",
+          "count": 41
+        }
+      ]
+    },
+    {
+      "category": "Ontdooiing",
+      "options": [
+        {
+          "option": "Automatisch",
+          "count": 316
+        },
+        {
+          "option": "Handmatig",
+          "count": 27
+        }
+      ]
+    },
+    {
+      "category": "Bediening",
+      "options": [
+        {
+          "option": "Analoog",
+          "count": 21
+        },
+        {
+          "option": "Digitaal",
+          "count": 322
+        }
+      ]
+    },
+    {
+      "category": "Slot",
+      "options": [
+        {
+          "option": "Nee",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "category": "Wielen",
+      "options": [
+        {
+          "option": "Ja",
+          "count": 17
+        },
+        {
+          "option": "Ja (Optie)",
+          "count": 74
+        },
+        {
+          "option": "Nee",
+          "count": 324
+        }
+      ]
+    },
+    {
+      "category": "Vermogen / Aansluitwaarde",
+      "options": [
+        {
+          "option": "0.11 - 0.30 kW",
+          "count": 29
+        },
+        {
+          "option": "0.31 - 0.40 kW",
+          "count": 26
+        },
+        {
+          "option": "0.41 - 0.50 kW",
+          "count": 26
+        },
+        {
+          "option": "0.51 - 0.60 kW",
+          "count": 12
+        },
+        {
+          "option": "0.61 - 0.70 kW",
+          "count": 25
+        },
+        {
+          "option": "0.71 - 0.75 kW",
+          "count": 2
+        },
+        {
+          "option": "0.76 - 0.80 kW",
+          "count": 14
+        },
+        {
+          "option": "0.81 - 0.85 kW",
+          "count": 32
+        },
+        {
+          "option": "0.86 - 0.90 kW",
+          "count": 14
+        },
+        {
+          "option": "0.91 - 0.95 kW",
+          "count": 12
+        },
+        {
+          "option": "0.96 - 1 kW",
+          "count": 19
+        },
+        {
+          "option": "1.01 - 1.5 kW",
+          "count": 73
+        }
+      ]
+    },
+    {
+      "category": "Kleur / Afwerking",
+      "options": [
+        {
+          "option": "RVS",
+          "count": 37
+        },
+        {
+          "option": "RVS | Wit",
+          "count": 7
+        },
+        {
+          "option": "RVS | Zwart",
+          "count": 11
+        },
+        {
+          "option": "RVS | Grijs",
+          "count": 7
+        },
+        {
+          "option": "Wit",
+          "count": 36
+        },
+        {
+          "option": "Wit | Grijs",
+          "count": 35
+        },
+        {
+          "option": "Zwart",
+          "count": 109
+        },
+        {
+          "option": "Zwart | Wit",
+          "count": 5
+        },
+        {
+          "option": "Zwart | Grijs",
+          "count": 23
+        },
+        {
+          "option": "Grijs",
+          "count": 172
+        },
+        {
+          "option": "Overige",
+          "count": 33
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "Koeltoonbank | 2 Schuifdeuren | 175 Liter Capaciteit | GN | 0.2kW (230V) | 915x890x1080(h)mm",
+      "url": "https://www.horecagemak.nl/koelvitrine-met-onderstel-2-schuifdeuren-175-liter.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/491021677/800x800x2/maxima-koeltoonbank-2-schuifdeuren-175-liter-capac.webp",
+      "price_excl_btw": "EUR 1.271,00",
+      "price_incl_btw": "EUR 1.537,91",
+      "original_price_excl_btw": "EUR 1.700,00",
+      "original_price_incl_btw": "EUR 2.057,00",
+      "stock_status": "voorraad controleren",
+      "sku": "•  MAX-9400820",
+      "specs": [
+        "Merk: Maxima",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\001-koeltoonbank-2-schuifdeuren-175-liter-capaciteit-gn-02kw-230v-915x890x1080hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | 2 Schuifdeuren | 269 Liter Capaciteit | GN | 0.2kW (230V) | 1250x890x1080(h)mm",
+      "url": "https://www.horecagemak.nl/koelvitrine-met-onderstel-2-schuifdeuren-269-liter.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/491021638/800x800x2/maxima-koeltoonbank-2-schuifdeuren-269-liter-capac.webp",
+      "price_excl_btw": "EUR 1.279,00",
+      "price_incl_btw": "EUR 1.547,59",
+      "original_price_excl_btw": "EUR 1.730,00",
+      "original_price_incl_btw": "EUR 2.093,30",
+      "stock_status": "voorraad controleren",
+      "sku": "•  MAX-9400821",
+      "specs": [
+        "Merk: Maxima",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\002-koeltoonbank-2-schuifdeuren-269-liter-capaciteit-gn-02kw-230v-1250x890x1080hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | SUPER PLUS | +4°C/+6°C | Statisch | Zelfbediening | Optioneel Onderstel | 1000x930x345(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-super-plus-4c-6c-statisch-025kw-self.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/473205457/800x800x2/diamond-koeltoonbank-super-plus-4c-6c-statisch-zel.webp",
+      "price_excl_btw": "EUR 1.287,00",
+      "price_incl_btw": "EUR 1.557,27",
+      "original_price_excl_btw": "EUR 1.716,00",
+      "original_price_incl_btw": "EUR 2.076,36",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-SUP10-ZS/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\003-koeltoonbank-super-plus-4c6c-statisch-zelfbediening-optioneel-onderstel-1000x930.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | -5°C | Plaatkoeling | Wielen | 1000x920x1180(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-5c-plaatkoeling-wielen-1-158448422.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/478723771/800x800x2/combisteel-viskoeltoonbank-5c-plaatkoeling-wielen.webp",
+      "price_excl_btw": "EUR 1.403,00",
+      "price_incl_btw": "EUR 1.697,63",
+      "original_price_excl_btw": "EUR 1.948,00",
+      "original_price_incl_btw": "EUR 2.357,08",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7083.0005",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\004-viskoeltoonbank-5c-plaatkoeling-wielen-1000x920x1180hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | SUPER PLUS | +4°C/+6°C | Statisch | Zelfbediening | Optioneel Onderstel | 1500x930x345(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-super-plus-4c-6c-statisch-0-108507296.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/473205623/800x800x2/diamond-koeltoonbank-super-plus-4c-6c-statisch-zel.webp",
+      "price_excl_btw": "EUR 1.501,00",
+      "price_incl_btw": "EUR 1.816,21",
+      "original_price_excl_btw": "EUR 2.001,00",
+      "original_price_incl_btw": "EUR 2.421,21",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-SUP15-ZS/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\005-koeltoonbank-super-plus-4c6c-statisch-zelfbediening-optioneel-onderstel-1500x930.webp"
+    },
+    {
+      "name": "Koeltoonbank | SUPER PLUS | +4°C/+6°C | Statisch | Optioneel Onderstel | 1000x930x660(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-super-plus-4c-6c-statisch-026kw-zonde.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/473206320/800x800x2/diamond-koeltoonbank-super-plus-4c-6c-statisch-opt.webp",
+      "price_excl_btw": "EUR 1.524,00",
+      "price_incl_btw": "EUR 1.844,04",
+      "original_price_excl_btw": "EUR 2.031,00",
+      "original_price_incl_btw": "EUR 2.457,51",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-SUP10-ZD/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\006-koeltoonbank-super-plus-4c6c-statisch-optioneel-onderstel-1000x930x660hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | SUPER PLUS | +4°C/+6°C | Statisch | Optioneel Onderstel | 1000x930x660(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-super-plus-4c-6c-statisch-0-108507291.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/473206988/800x800x2/diamond-koeltoonbank-super-plus-4c-6c-statisch-opt.webp",
+      "price_excl_btw": "EUR 1.578,00",
+      "price_incl_btw": "EUR 1.909,38",
+      "original_price_excl_btw": "EUR 2.104,00",
+      "original_price_incl_btw": "EUR 2.545,84",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-SUP10-ZC/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\007-koeltoonbank-super-plus-4c6c-statisch-optioneel-onderstel-1000x930x660hmm.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | G-SERIE | +2°C/+12°C | Statisch | 915x890x560(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-g-serie-2c-12c-statisch-optioneel.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/449287238/800x800x2/polar-viskoeltoonbank-g-serie-2c-12c-statisch-915x.webp",
+      "price_excl_btw": "EUR 1.639,99",
+      "price_incl_btw": "EUR 1.984,39",
+      "stock_status": "voorraad controleren",
+      "sku": "•  GAS-GE960",
+      "specs": [
+        "Merk: Polar",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\008-viskoeltoonbank-g-serie-2c12c-statisch-915x890x560hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | WESLEY | 0°C/+7°C | Geforceerd | Gekoelde Reserve | 1340x902x1230(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-wesley-0c-7c-geforceerd-023kw-gekoeld.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/487343462/800x800x2/combisteel-koeltoonbank-wesley-0c-7c-geforceerd-ge.webp",
+      "price_excl_btw": "EUR 1.649,00",
+      "price_incl_btw": "EUR 1.995,29",
+      "original_price_excl_btw": "EUR 2.290,00",
+      "original_price_incl_btw": "EUR 2.770,90",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7090.0085",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\009-koeltoonbank-wesley-0c7c-geforceerd-gekoelde-reserve-1340x902x1230hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | SALINA80 | +3°C/+5°C | Geventileerd | 0.66kW | Gekoelde Reserve | 1040x900x1262(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-salina80-3c-5c-geventileerd-066kw-gek.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/414375303/800x800x2/mastro-koeltoonbank-salina80-3c-5c-geventileerd-06.webp",
+      "price_excl_btw": "EUR 1.678,00",
+      "price_incl_btw": "EUR 2.030,38",
+      "original_price_excl_btw": "EUR 2.547,00",
+      "original_price_incl_btw": "EUR 3.081,87",
+      "stock_status": "voorraad controleren",
+      "sku": "•  MAS-BGB0310",
+      "specs": [
+        "Merk: Mastro",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\010-koeltoonbank-salina80-3c5c-geventileerd-066kw-gekoelde-reserve-1040x900x1262hmm.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | G-SERIE | +2°C/+12°C | Statisch | 1245x890x560(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-g-serie-2c-12c-statisch-149253068.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/449287924/800x800x2/polar-viskoeltoonbank-g-serie-2c-12c-statisch-1245.webp",
+      "price_excl_btw": "EUR 1.739,99",
+      "price_incl_btw": "EUR 2.105,39",
+      "stock_status": "voorraad controleren",
+      "sku": "•  GAS-GE961",
+      "specs": [
+        "Merk: Polar",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\011-viskoeltoonbank-g-serie-2c12c-statisch-1245x890x560hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | SUPER PLUS | +4°C/+6°C | Statisch | Optioneel Onderstel | 1500x930x660(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-super-plus-4c-6c-statisch-028kw-zonde.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/473206444/800x800x2/diamond-koeltoonbank-super-plus-4c-6c-statisch-opt.webp",
+      "price_excl_btw": "EUR 1.748,00",
+      "price_incl_btw": "EUR 2.115,08",
+      "original_price_excl_btw": "EUR 2.330,00",
+      "original_price_incl_btw": "EUR 2.819,30",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-SUP15-ZD/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\012-koeltoonbank-super-plus-4c6c-statisch-optioneel-onderstel-1500x930x660hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | SUPER PLUS | +4°C/+6°C | Statisch | Optioneel Onderstel | 1500x930x660(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-super-plus-4c-6c-statisch-0-108507294.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/473207150/800x800x2/diamond-koeltoonbank-super-plus-4c-6c-statisch-opt.webp",
+      "price_excl_btw": "EUR 1.754,00",
+      "price_incl_btw": "EUR 2.122,34",
+      "original_price_excl_btw": "EUR 2.338,00",
+      "original_price_incl_btw": "EUR 2.828,98",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-SUP15-ZC/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\013-koeltoonbank-super-plus-4c6c-statisch-optioneel-onderstel-1500x930x660hmm.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | -5°C | Plaatkoeling | Wielen | 1000x900x1200(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-5c-plaatkoeling-wielen-1000x900x12.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/455844946/800x800x2/mastro-viskoeltoonbank-5c-plaatkoeling-wielen-1000.webp",
+      "price_excl_btw": "EUR 1.767,00",
+      "price_incl_btw": "EUR 2.138,07",
+      "original_price_excl_btw": "EUR 2.690,00",
+      "original_price_incl_btw": "EUR 3.254,90",
+      "stock_status": "voorraad controleren",
+      "sku": "•  MAS-HDC0011",
+      "specs": [
+        "Merk: Mastro",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\014-viskoeltoonbank-5c-plaatkoeling-wielen-1000x900x1200hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | LILA | +2°C/+8°C | Geforceerd | Gekoelde Reserve | 1280x975x1285(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-lila-2c-8c-geforceerd-gekoelde-reserv.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/477879594/800x800x2/unnicool-koeltoonbank-lila-2c-8c-geforceerd-gekoel.webp",
+      "price_excl_btw": "EUR 1.789,00",
+      "price_incl_btw": "EUR 2.164,69",
+      "original_price_excl_btw": "EUR 2.980,00",
+      "original_price_incl_btw": "EUR 3.605,80",
+      "stock_status": "voorraad controleren",
+      "sku": "•  UNN-UNN1200KRT",
+      "specs": [
+        "Merk: UNNICOOL",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\015-koeltoonbank-lila-2c8c-geforceerd-gekoelde-reserve-1280x975x1285hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | WESLEY | 0°C/+7°C | Geforceerd | Gekoelde Reserve | 1590x902x1230(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-wesley-2c-2c-geforceerd-023kw-gekoeld.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/487344495/800x800x2/combisteel-koeltoonbank-wesley-0c-7c-geforceerd-ge.webp",
+      "price_excl_btw": "EUR 1.796,00",
+      "price_incl_btw": "EUR 2.173,16",
+      "original_price_excl_btw": "EUR 2.495,00",
+      "original_price_incl_btw": "EUR 3.018,95",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7090.0090",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\016-koeltoonbank-wesley-0c7c-geforceerd-gekoelde-reserve-1590x902x1230hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1025x800x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-gekoelde-res.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/486683278/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 1.889,00",
+      "price_incl_btw": "EUR 2.285,69",
+      "original_price_excl_btw": "EUR 2.113,00",
+      "original_price_incl_btw": "EUR 2.556,73",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-8-10-R",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\017-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1025x800x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | ROME | +4°C/+6°C | Statisch | 0.3kW | Gekoelde Reserve | 1000x800x1220(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-rome-4c-6c-statisch-03kw-gekoelde-res.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460554268/800x800x2/diamond-koeltoonbank-rome-4c-6c-statisch-03kw-geko.webp",
+      "price_excl_btw": "EUR 1.897,00",
+      "price_incl_btw": "EUR 2.295,37",
+      "original_price_excl_btw": "EUR 2.529,00",
+      "original_price_incl_btw": "EUR 3.060,09",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-RO10/E8-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\018-koeltoonbank-rome-4c6c-statisch-03kw-gekoelde-reserve-1000x800x1220hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | ROME | +4°C/+6°C | Statisch | 0.3kW | Gekoelde Reserve | 1000x800x1220(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-rome-4c-6c-statisch-03kw-ge-122277937.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460553811/800x800x2/diamond-koeltoonbank-rome-4c-6c-statisch-03kw-geko.webp",
+      "price_excl_btw": "EUR 1.897,00",
+      "price_incl_btw": "EUR 2.295,37",
+      "original_price_excl_btw": "EUR 2.529,00",
+      "original_price_incl_btw": "EUR 3.060,09",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-RO10/B5-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\019-koeltoonbank-rome-4c6c-statisch-03kw-gekoelde-reserve-1000x800x1220hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | SALINA80 | +3°C/+5°C | Geventileerd | 0.71kW | Gekoelde Reserve | 1520x900x1262(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-salina80-3c-5c-geventileerd-071kw-gek.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/414376026/800x800x2/mastro-koeltoonbank-salina80-3c-5c-geventileerd-07.webp",
+      "price_excl_btw": "EUR 1.918,00",
+      "price_incl_btw": "EUR 2.320,78",
+      "original_price_excl_btw": "EUR 2.936,00",
+      "original_price_incl_btw": "EUR 3.552,56",
+      "stock_status": "voorraad controleren",
+      "sku": "•  MAS-BGB0311",
+      "specs": [
+        "Merk: Mastro",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\020-koeltoonbank-salina80-3c5c-geventileerd-071kw-gekoelde-reserve-1520x900x1262hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | LILA | +2°C/+8°C | Geforceerd | Gekoelde Reserve | 1580x975x1285(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-lila-2c-8c-geforceerd-gekoe-158230413.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/477880259/800x800x2/unnicool-koeltoonbank-lila-2c-8c-geforceerd-gekoel.webp",
+      "price_excl_btw": "EUR 1.919,00",
+      "price_incl_btw": "EUR 2.321,99",
+      "original_price_excl_btw": "EUR 3.195,00",
+      "original_price_incl_btw": "EUR 3.865,95",
+      "stock_status": "voorraad controleren",
+      "sku": "•  UNN-UNN1500KRT",
+      "specs": [
+        "Merk: UNNICOOL",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\021-koeltoonbank-lila-2c8c-geforceerd-gekoelde-reserve-1580x975x1285hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | VINNIE | +1°C/+10°C | Statisch | 0.63kW | Kantelruit | Gekoelde Reserve | 1500x825x1230(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-vinnie-1c-10c-statisch-063k-111274098.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413471160/800x800x2/combisteel-koeltoonbank-vinnie-1c-10c-statisch-063.webp",
+      "price_excl_btw": "EUR 1.922,00",
+      "price_incl_btw": "EUR 2.325,62",
+      "original_price_excl_btw": "EUR 2.670,00",
+      "original_price_incl_btw": "EUR 3.230,70",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7486.0005",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\022-koeltoonbank-vinnie-1c10c-statisch-063kw-kantelruit-gekoelde-reserve-1500x825x12.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Geforceerd | Gekoelde Reserve | Kantelruit | 1025x960x1105(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-geforceerd-162116053.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493429993/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-geforceerd-gek.webp",
+      "price_excl_btw": "EUR 1.987,00",
+      "price_incl_btw": "EUR 2.404,27",
+      "original_price_excl_btw": "EUR 2.924,00",
+      "original_price_incl_btw": "EUR 3.538,04",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-10-RCB-TF",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\023-koeltoonbank-cve-serie-1c5c-geforceerd-gekoelde-reserve-kantelruit-1025x960x1105.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1025x800x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-160331423.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/486730696/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.004,00",
+      "price_incl_btw": "EUR 2.424,84",
+      "original_price_excl_btw": "EUR 2.260,00",
+      "original_price_incl_btw": "EUR 2.734,60",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-8-10-C",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\024-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1025x800x1235hm.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | -5°C | Plaatkoeling | Wielen | 1440x920x1180(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-5c-plaatkoeling-wielen-1-158449025.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/478724859/800x800x2/combisteel-viskoeltoonbank-5c-plaatkoeling-wielen.webp",
+      "price_excl_btw": "EUR 2.006,00",
+      "price_incl_btw": "EUR 2.427,26",
+      "original_price_excl_btw": "EUR 2.786,00",
+      "original_price_incl_btw": "EUR 3.371,06",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7083.0010",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\025-viskoeltoonbank-5c-plaatkoeling-wielen-1440x920x1180hmm.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | -5°C | Plaatkoeling | Zelfbediening | Wielen | 1880x920x1025(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-5c-plaatkoeling-zelfbediening-wiel.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/478727920/800x800x2/combisteel-viskoeltoonbank-5c-plaatkoeling-zelfbed.webp",
+      "price_excl_btw": "EUR 2.043,00",
+      "price_incl_btw": "EUR 2.472,03",
+      "original_price_excl_btw": "EUR 2.838,00",
+      "original_price_incl_btw": "EUR 3.433,98",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7083.0025",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\026-viskoeltoonbank-5c-plaatkoeling-zelfbediening-wielen-1880x920x1025hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | WESLEY | 0°C/+7°C | Geforceerd | Gekoelde Reserve | 1965x902x1230(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-wesley-2c-2c-geforceerd-027kw-gekoeld.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/487345457/800x800x2/combisteel-koeltoonbank-wesley-0c-7c-geforceerd-ge.webp",
+      "price_excl_btw": "EUR 2.052,00",
+      "price_incl_btw": "EUR 2.482,92",
+      "original_price_excl_btw": "EUR 2.850,00",
+      "original_price_incl_btw": "EUR 3.448,50",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7090.0095",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\027-koeltoonbank-wesley-0c7c-geforceerd-gekoelde-reserve-1965x902x1230hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | MOLINA | +4°C/+6°C | Statisch | 0.25kW | Kantelruit | Gekoelde Reserve | 1040x910x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-molina-4c-6c-statisch-025kw-kantelrui.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460560024/800x800x2/diamond-koeltoonbank-molina-4c-6c-statisch-025kw-k.webp",
+      "price_excl_btw": "EUR 2.053,00",
+      "price_incl_btw": "EUR 2.484,13",
+      "original_price_excl_btw": "EUR 2.737,00",
+      "original_price_incl_btw": "EUR 3.311,77",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-ML10/E8-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\028-koeltoonbank-molina-4c6c-statisch-025kw-kantelruit-gekoelde-reserve-1040x910x128.webp"
+    },
+    {
+      "name": "Koeltoonbank | MOLINA | +4°C/+6°C | Statisch | 0.25kW | Kantelruit | Gekoelde Reserve | 1040x910x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-molina-4c-6c-statisch-025kw-123808596.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460560427/800x800x2/diamond-koeltoonbank-molina-4c-6c-statisch-025kw-k.webp",
+      "price_excl_btw": "EUR 2.053,00",
+      "price_incl_btw": "EUR 2.484,13",
+      "original_price_excl_btw": "EUR 2.737,00",
+      "original_price_incl_btw": "EUR 3.311,77",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-ML10/B5-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\029-koeltoonbank-molina-4c6c-statisch-025kw-kantelruit-gekoelde-reserve-1040x910x128.webp"
+    },
+    {
+      "name": "Koeltoonbank | RONALD | -2°C/+2°C | Geforceerd | Zelfbediening | 1580x940x870(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-ronald-2c-2c-geforceerd-self-service.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/463185185/800x800x2/combisteel-koeltoonbank-ronald-2c-2c-geforceerd-ze.webp",
+      "price_excl_btw": "EUR 2.059,00",
+      "price_incl_btw": "EUR 2.491,39",
+      "original_price_excl_btw": "EUR 2.860,00",
+      "original_price_incl_btw": "EUR 3.460,60",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7090.0220",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\030-koeltoonbank-ronald-2c2c-geforceerd-zelfbediening-1580x940x870hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | THOMAS | 0°C/+5°C | Geforceerd | Gekoelde Reserve | 1330x940x1200(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-thomas-0c-5c-geforceerd-gekoelde-rese.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/462593997/800x800x2/combisteel-koeltoonbank-thomas-0c-5c-geforceerd-ge.webp",
+      "price_excl_btw": "EUR 2.063,00",
+      "price_incl_btw": "EUR 2.496,23",
+      "original_price_excl_btw": "EUR 2.865,00",
+      "original_price_incl_btw": "EUR 3.466,65",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7090.0200",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\031-koeltoonbank-thomas-0c5c-geforceerd-gekoelde-reserve-1330x940x1200hmm.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | XL | 0°C/+4°C | Plaatkoeling | Zelfbediening (Schuifraam) | Optioneel Onderstel | 680x882x400(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-xl-0c-4c-plaatkoeling-zelfbedienin.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/476247550/800x800x2/sayl-viskoeltoonbank-xl-0c-4c-plaatkoeling-zelfbed.webp",
+      "price_excl_btw": "EUR 2.064,00",
+      "price_incl_btw": "EUR 2.497,44",
+      "original_price_excl_btw": "EUR 2.580,00",
+      "original_price_incl_btw": "EUR 3.121,80",
+      "stock_status": "voorraad controleren",
+      "sku": "•  SAY-VX2-P",
+      "specs": [
+        "Merk: SAYL",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\032-viskoeltoonbank-xl-0c4c-plaatkoeling-zelfbediening-schuifraam-optioneel-onderste.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | XL | 0°C/+4°C | Plaatkoeling | Zelfbediening (Schuifraam) | Optioneel Onderstel | 680x882x400(h)mm",
+      "url": "https://www.horecagemak.nl/koelvitrine-vis-aisi-316-led-0c-4c-statisch-2x-gn1.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/476245055/800x800x2/sayl-viskoeltoonbank-xl-0c-4c-plaatkoeling-zelfbed.webp",
+      "price_excl_btw": "EUR 2.064,00",
+      "price_incl_btw": "EUR 2.497,44",
+      "original_price_excl_btw": "EUR 2.580,00",
+      "original_price_incl_btw": "EUR 3.121,80",
+      "stock_status": "voorraad controleren",
+      "sku": "•  SAY-VX2-N",
+      "specs": [
+        "Merk: SAYL",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\033-viskoeltoonbank-xl-0c4c-plaatkoeling-zelfbediening-schuifraam-optioneel-onderste.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1265x800x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-160321492.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/486684857/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.066,00",
+      "price_incl_btw": "EUR 2.499,86",
+      "original_price_excl_btw": "EUR 2.339,00",
+      "original_price_incl_btw": "EUR 2.830,19",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-8-13-R",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\034-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1265x800x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | BRABANT | +2°C/+8°C | Statisch | Gekoelde Reserve | Kantelruit | 953x973x1195(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-brabant-2c-8c-statisch-geko-156957462.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/474299032/800x800x2/tefcold-koeltoonbank-brabant-2c-8c-statisch-gekoel.webp",
+      "price_excl_btw": "EUR 2.096,00",
+      "price_incl_btw": "EUR 2.536,16",
+      "original_price_excl_btw": "EUR 2.620,00",
+      "original_price_incl_btw": "EUR 3.170,20",
+      "stock_status": "voorraad controleren",
+      "sku": "•  TOP-52083",
+      "specs": [
+        "Merk: Tefcold",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\035-koeltoonbank-brabant-2c8c-statisch-gekoelde-reserve-kantelruit-953x973x1195hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | BRABANT | +2°C/+8°C | Statisch | Gekoelde Reserve | Kantelruit | 953x973x1195(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-brabant-2c-8c-statisch-gekoelde-reser.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/474300213/800x800x2/tefcold-koeltoonbank-brabant-2c-8c-statisch-gekoel.webp",
+      "price_excl_btw": "EUR 2.096,00",
+      "price_incl_btw": "EUR 2.536,16",
+      "original_price_excl_btw": "EUR 2.620,00",
+      "original_price_incl_btw": "EUR 3.170,20",
+      "stock_status": "voorraad controleren",
+      "sku": "•  TOP-52082",
+      "specs": [
+        "Merk: Tefcold",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\036-koeltoonbank-brabant-2c8c-statisch-gekoelde-reserve-kantelruit-953x973x1195hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | ROME | +4°C/+6°C | Statisch | 0.32kW | Gekoelde Reserve | 1500x800x1220(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-rome-4c-6c-statisch-032kw-gekoelde-re.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460554319/800x800x2/diamond-koeltoonbank-rome-4c-6c-statisch-032kw-gek.webp",
+      "price_excl_btw": "EUR 2.096,00",
+      "price_incl_btw": "EUR 2.536,16",
+      "original_price_excl_btw": "EUR 2.794,00",
+      "original_price_incl_btw": "EUR 3.380,74",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-RO15/E8-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\037-koeltoonbank-rome-4c6c-statisch-032kw-gekoelde-reserve-1500x800x1220hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | ROME | +4°C/+6°C | Statisch | 0.32kW | Gekoelde Reserve | 1500x800x1220(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-rome-4c-6c-statisch-032kw-g-122277800.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460553835/800x800x2/diamond-koeltoonbank-rome-4c-6c-statisch-032kw-gek.webp",
+      "price_excl_btw": "EUR 2.096,00",
+      "price_incl_btw": "EUR 2.536,16",
+      "original_price_excl_btw": "EUR 2.794,00",
+      "original_price_incl_btw": "EUR 3.380,74",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-RO15/B5-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\038-koeltoonbank-rome-4c6c-statisch-032kw-gekoelde-reserve-1500x800x1220hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | LOMA | 0°C/+4°C | Plaatkoeling | 1000x882x600(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-loma-0c-4c-plaatkoeling-1030x882x500h.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/476250951/800x800x2/sayl-koeltoonbank-loma-0c-4c-plaatkoeling-1000x882.webp",
+      "price_excl_btw": "EUR 2.104,00",
+      "price_incl_btw": "EUR 2.545,84",
+      "original_price_excl_btw": "EUR 2.630,00",
+      "original_price_incl_btw": "EUR 3.182,30",
+      "stock_status": "voorraad controleren",
+      "sku": "•  SAY-LM10",
+      "specs": [
+        "Merk: SAYL",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\039-koeltoonbank-loma-0c4c-plaatkoeling-1000x882x600hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1505x800x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-160322587.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/486690736/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.190,00",
+      "price_incl_btw": "EUR 2.649,90",
+      "original_price_excl_btw": "EUR 2.497,00",
+      "original_price_incl_btw": "EUR 3.021,37",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-8-15-R",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\040-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1505x800x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | VR FISH | 0°C/+2°C | Statisch | 0.3kW | Wielen (Geremd) | 1000x980x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-vr-fish-0c-2c-statisch-03kw-wielen-ge.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413782957/800x800x2/diamond-koeltoonbank-vr-fish-0c-2c-statisch-03kw-w.webp",
+      "price_excl_btw": "EUR 2.193,00",
+      "price_incl_btw": "EUR 2.653,53",
+      "original_price_excl_btw": "EUR 2.924,00",
+      "original_price_incl_btw": "EUR 3.538,04",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-VR10-CR/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\041-koeltoonbank-vr-fish-0c2c-statisch-03kw-wielen-geremd-1000x980x1280hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1265x800x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-160331619.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/486731464/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.195,00",
+      "price_incl_btw": "EUR 2.655,95",
+      "original_price_excl_btw": "EUR 2.504,00",
+      "original_price_incl_btw": "EUR 3.029,84",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-8-13-C",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\042-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1265x800x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | THOMAS | 0°C/+5°C | Geforceerd | Gekoelde Reserve | 1580x940x1200(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-thomas-0c-5c-geforceerd-gek-153029531.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/462736100/800x800x2/combisteel-koeltoonbank-thomas-0c-5c-geforceerd-ge.webp",
+      "price_excl_btw": "EUR 2.221,00",
+      "price_incl_btw": "EUR 2.687,41",
+      "original_price_excl_btw": "EUR 3.085,00",
+      "original_price_incl_btw": "EUR 3.732,85",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7090.0205",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\043-koeltoonbank-thomas-0c5c-geforceerd-gekoelde-reserve-1580x940x1200hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1025x940x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-161703854.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/491799060/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.223,00",
+      "price_incl_btw": "EUR 2.689,83",
+      "original_price_excl_btw": "EUR 2.539,00",
+      "original_price_incl_btw": "EUR 3.072,19",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-10-RR",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\044-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1025x940x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | VINNIE | +1°C/+10°C | Statisch | 0.84kW | Kantelruit | Gekoelde Reserve | 2000x825x1230(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-vinnie-1c-10c-statisch-084k-111274136.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413471693/800x800x2/combisteel-koeltoonbank-vinnie-1c-10c-statisch-084.webp",
+      "price_excl_btw": "EUR 2.232,00",
+      "price_incl_btw": "EUR 2.700,72",
+      "original_price_excl_btw": "EUR 3.100,00",
+      "original_price_incl_btw": "EUR 3.751,00",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7486.0010",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\045-koeltoonbank-vinnie-1c10c-statisch-084kw-kantelruit-gekoelde-reserve-2000x825x12.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1025x940x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-161723810.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/491882899/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.242,00",
+      "price_incl_btw": "EUR 2.712,82",
+      "original_price_excl_btw": "EUR 2.563,00",
+      "original_price_incl_btw": "EUR 3.101,23",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-10-C",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\046-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1025x940x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | SALINA80 | +3°C/+5°C | Geventileerd | 0.83kW | Gekoelde Reserve | 2000x900x1262(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-salina80-3c-5c-geventileerd-083kw-gek.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/414376667/800x800x2/mastro-koeltoonbank-salina80-3c-5c-geventileerd-08.webp",
+      "price_excl_btw": "EUR 2.269,00",
+      "price_incl_btw": "EUR 2.745,49",
+      "original_price_excl_btw": "EUR 3.505,00",
+      "original_price_incl_btw": "EUR 4.241,05",
+      "stock_status": "voorraad controleren",
+      "sku": "•  MAS-BGB0312",
+      "specs": [
+        "Merk: Mastro",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\047-koeltoonbank-salina80-3c5c-geventileerd-083kw-gekoelde-reserve-2000x900x1262hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | MOLINA | 0°C/+2°C | Geventileerd | 0.25kW | Kantelruit | Gekoelde Reserve | 1040x910x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-molina-0c-2c-geventileerd-025kw-kante.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460560015/800x800x2/diamond-koeltoonbank-molina-0c-2c-geventileerd-025.webp",
+      "price_excl_btw": "EUR 2.276,00",
+      "price_incl_btw": "EUR 2.753,96",
+      "original_price_excl_btw": "EUR 3.034,00",
+      "original_price_incl_btw": "EUR 3.671,14",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-ML10/E8-VV/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\048-koeltoonbank-molina-0c2c-geventileerd-025kw-kantelruit-gekoelde-reserve-1040x910.webp"
+    },
+    {
+      "name": "Koeltoonbank | MOLINA | 0°C/+2°C | Geventileerd | 0.25kW | Kantelruit | Gekoelde Reserve | 1040x910x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-molina-0c-2c-geventileerd-0-123811065.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460560403/800x800x2/diamond-koeltoonbank-molina-0c-2c-geventileerd-025.webp",
+      "price_excl_btw": "EUR 2.276,00",
+      "price_incl_btw": "EUR 2.753,96",
+      "original_price_excl_btw": "EUR 3.034,00",
+      "original_price_incl_btw": "EUR 3.671,14",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-ML10/B5V/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\049-koeltoonbank-molina-0c2c-geventileerd-025kw-kantelruit-gekoelde-reserve-1040x910.webp"
+    },
+    {
+      "name": "Koeltoonbank | LILA | +2°C/+8°C | Geforceerd | Gekoelde Reserve | 1880x975x1285(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-lila-2c-8c-geforceerd-gekoe-158230666.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/477880378/800x800x2/unnicool-koeltoonbank-lila-2c-8c-geforceerd-gekoel.webp",
+      "price_excl_btw": "EUR 2.289,00",
+      "price_incl_btw": "EUR 2.769,69",
+      "original_price_excl_btw": "EUR 3.805,00",
+      "original_price_incl_btw": "EUR 4.604,05",
+      "stock_status": "voorraad controleren",
+      "sku": "•  UNN-UNN1800KRT",
+      "specs": [
+        "Merk: UNNICOOL",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\050-koeltoonbank-lila-2c8c-geforceerd-gekoelde-reserve-1880x975x1285hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Geforceerd | Gekoelde Reserve | Kantelruit | 1025x940x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-geforceerd-gekoelde-r.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/491953406/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-geforceerd-gek.webp",
+      "price_excl_btw": "EUR 2.290,00",
+      "price_incl_btw": "EUR 2.770,90",
+      "original_price_excl_btw": "EUR 2.625,00",
+      "original_price_incl_btw": "EUR 3.176,25",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-10-RR-TF",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\051-koeltoonbank-cve-serie-1c5c-geforceerd-gekoelde-reserve-kantelruit-1025x940x1235.webp"
+    },
+    {
+      "name": "Koeltoonbank | RONALD | -2°C/+2°C | Geforceerd | Zelfbediening | 1955x940x870(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-ronald-2c-2c-geforceerd-sel-153130464.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/463185297/800x800x2/combisteel-koeltoonbank-ronald-2c-2c-geforceerd-ze.webp",
+      "price_excl_btw": "EUR 2.300,00",
+      "price_incl_btw": "EUR 2.783,00",
+      "original_price_excl_btw": "EUR 3.195,00",
+      "original_price_incl_btw": "EUR 3.865,95",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7090.0225",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\052-koeltoonbank-ronald-2c2c-geforceerd-zelfbediening-1955x940x870hmm.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | 0°C/+6°C | Statisch | Wielen (Geremd) | 1000x985x1235(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-0c-6c-statisch-wielen-geremd-1000x.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/455869706/800x800x2/mastro-viskoeltoonbank-0c-6c-statisch-wielen-gerem.webp",
+      "price_excl_btw": "EUR 2.300,00",
+      "price_incl_btw": "EUR 2.783,00",
+      "original_price_excl_btw": "EUR 3.556,00",
+      "original_price_incl_btw": "EUR 4.302,76",
+      "stock_status": "voorraad controleren",
+      "sku": "•  MAS-HDC0009",
+      "specs": [
+        "Merk: Mastro",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\053-viskoeltoonbank-0c6c-statisch-wielen-geremd-1000x985x1235hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | SUPER PLUS | +4°C/+6°C | Statisch | Optioneel Onderstel | 2000x930x660(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-super-plus-4c-6c-statisch-optioneel-o.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/477229955/800x800x2/diamond-koeltoonbank-super-plus-4c-6c-statisch-opt.webp",
+      "price_excl_btw": "EUR 2.301,00",
+      "price_incl_btw": "EUR 2.784,21",
+      "original_price_excl_btw": "EUR 3.067,00",
+      "original_price_incl_btw": "EUR 3.711,07",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-SUP20-ZD/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\054-koeltoonbank-super-plus-4c6c-statisch-optioneel-onderstel-2000x930x660hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | MOLINA | +4°C/+6°C | Statisch | 0.25kW | Kantelruit | Gekoelde Reserve | 1500x910x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-molina-4c-6c-statisch-025kw-123816107.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460560000/800x800x2/diamond-koeltoonbank-molina-4c-6c-statisch-025kw-k.webp",
+      "price_excl_btw": "EUR 2.308,00",
+      "price_incl_btw": "EUR 2.792,68",
+      "original_price_excl_btw": "EUR 3.077,00",
+      "original_price_incl_btw": "EUR 3.723,17",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-ML15/E8-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\055-koeltoonbank-molina-4c6c-statisch-025kw-kantelruit-gekoelde-reserve-1500x910x128.webp"
+    },
+    {
+      "name": "Koeltoonbank | MOLINA | +4°C/+6°C | Statisch | 0.25kW | Kantelruit | Gekoelde Reserve | 1500x910x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-molina-4c-6c-statisch-025kw-123815926.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460560376/800x800x2/diamond-koeltoonbank-molina-4c-6c-statisch-025kw-k.webp",
+      "price_excl_btw": "EUR 2.308,00",
+      "price_incl_btw": "EUR 2.792,68",
+      "original_price_excl_btw": "EUR 3.077,00",
+      "original_price_incl_btw": "EUR 3.723,17",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-ML15/B5-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\056-koeltoonbank-molina-4c6c-statisch-025kw-kantelruit-gekoelde-reserve-1500x910x128.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Geforceerd | Gekoelde Reserve | Kantelruit | 1025x940x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-geforceerd-161776430.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/492062927/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-geforceerd-gek.webp",
+      "price_excl_btw": "EUR 2.311,00",
+      "price_incl_btw": "EUR 2.796,31",
+      "original_price_excl_btw": "EUR 2.651,00",
+      "original_price_incl_btw": "EUR 3.207,71",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-10-C-TF",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\057-koeltoonbank-cve-serie-1c5c-geforceerd-gekoelde-reserve-kantelruit-1025x940x1235.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1025x960x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-162107433.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493389941/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.320,00",
+      "price_incl_btw": "EUR 2.807,20",
+      "original_price_excl_btw": "EUR 2.889,00",
+      "original_price_incl_btw": "EUR 3.495,69",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-10-RC",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\058-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1025x960x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | MEROPS | Externe Koelunit (Exclusief) | Div. Kleuren/Opties | Zelfbediening | Koppelbaar | Div. Breedten | Diepte 1167mm | Hoogte 855mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-merops-externe-koelunit-div-149366971.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/449569342/800x800x2/setab-koeltoonbank-merops-externe-koelunit-exclusi.webp",
+      "price_excl_btw": "EUR 2.339,00",
+      "price_incl_btw": "EUR 2.830,19",
+      "original_price_excl_btw": "EUR 3.119,00",
+      "original_price_incl_btw": "EUR 3.773,99",
+      "stock_status": "voorraad controleren",
+      "sku": "•  SET-MEROPSCG-RM-SS.937",
+      "specs": [
+        "Merk: Setab",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\059-koeltoonbank-merops-externe-koelunit-exclusief-div-kleurenopties-zelfbediening-k.webp"
+    },
+    {
+      "name": "Koeltoonbank | MEROPS | Externe Koelunit (Exclusief) | Div. Kleuren/Opties | Zelfbediening | Koppelbaar | Div. Breedten | Diepte 1144mm | Hoogte 855mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-merops-externe-koelunit-div-149091011.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/448787664/800x800x2/setab-koeltoonbank-merops-externe-koelunit-exclusi.webp",
+      "price_excl_btw": "EUR 2.339,00",
+      "price_incl_btw": "EUR 2.830,19",
+      "original_price_excl_btw": "EUR 3.119,00",
+      "original_price_incl_btw": "EUR 3.773,99",
+      "stock_status": "voorraad controleren",
+      "sku": "•  SET-MEROPSFG-RM-SS.937",
+      "specs": [
+        "Merk: Setab",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\060-koeltoonbank-merops-externe-koelunit-exclusief-div-kleurenopties-zelfbediening-k.webp"
+    },
+    {
+      "name": "Koeltoonbank | ROME | +4°C/+6°C | Statisch | 0.47kW | Gekoelde Reserve | 2000x800x1220(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-rome-4c-6c-statisch-047kw-gekoelde-re.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460554335/800x800x2/diamond-koeltoonbank-rome-4c-6c-statisch-047kw-gek.webp",
+      "price_excl_btw": "EUR 2.355,00",
+      "price_incl_btw": "EUR 2.849,55",
+      "original_price_excl_btw": "EUR 3.140,00",
+      "original_price_incl_btw": "EUR 3.799,40",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-RO20/E8-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\061-koeltoonbank-rome-4c6c-statisch-047kw-gekoelde-reserve-2000x800x1220hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | ROME | +4°C/+6°C | Statisch | Gekoelde Reserve | 2000x800x1220(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-rome-4c-6c-statisch-047kw-g-122277147.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460553883/800x800x2/diamond-koeltoonbank-rome-4c-6c-statisch-gekoelde.webp",
+      "price_excl_btw": "EUR 2.355,00",
+      "price_incl_btw": "EUR 2.849,55",
+      "original_price_excl_btw": "EUR 3.140,00",
+      "original_price_incl_btw": "EUR 3.799,40",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-RO20/B5-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\062-koeltoonbank-rome-4c6c-statisch-gekoelde-reserve-2000x800x1220hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1505x800x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-160331940.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/486732839/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.376,00",
+      "price_incl_btw": "EUR 2.874,96",
+      "original_price_excl_btw": "EUR 2.734,00",
+      "original_price_incl_btw": "EUR 3.308,14",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-8-15-C",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\063-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1505x800x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | SERIE MR | +3°C/+5°C | Geventileerd | 0.67kW | Kantelruit | Gekoelde Reserve | 1040x1175x1234(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-serie-mr-3c-5c-geventileerd-067kw-kan.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/415080777/800x800x2/mastro-koeltoonbank-serie-mr-3c-5c-geventileerd-06.webp",
+      "price_excl_btw": "EUR 2.379,00",
+      "price_incl_btw": "EUR 2.878,59",
+      "original_price_excl_btw": "EUR 3.685,00",
+      "original_price_incl_btw": "EUR 4.458,85",
+      "stock_status": "voorraad controleren",
+      "sku": "•  MAS-BGB0315/TN",
+      "specs": [
+        "Merk: Mastro",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\064-koeltoonbank-serie-mr-3c5c-geventileerd-067kw-kantelruit-gekoelde-reserve-1040x1.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | -5°C | Plaatkoeling | Wielen | 1880x920x1180(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-5c-plaatkoeling-wielen-1-158449250.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/478725675/800x800x2/combisteel-viskoeltoonbank-5c-plaatkoeling-wielen.webp",
+      "price_excl_btw": "EUR 2.390,00",
+      "price_incl_btw": "EUR 2.891,90",
+      "original_price_excl_btw": "EUR 3.320,00",
+      "original_price_incl_btw": "EUR 4.017,20",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7083.0015",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\065-viskoeltoonbank-5c-plaatkoeling-wielen-1880x920x1180hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | MEROPS | Externe Koelunit (Exclusief) | Div. Kleuren/Opties | Kantelruit | Koppelbaar | Div. Breedten | Diepte 1167mm | Hoogte 1220mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-merops-externe-koelunit-div-149365748.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/449564135/800x800x2/setab-koeltoonbank-merops-externe-koelunit-exclusi.webp",
+      "price_excl_btw": "EUR 2.409,00",
+      "price_incl_btw": "EUR 2.914,89",
+      "original_price_excl_btw": "EUR 3.219,00",
+      "original_price_incl_btw": "EUR 3.894,99",
+      "stock_status": "voorraad controleren",
+      "sku": "•  SET-MEROPSCG-RM-ST.937",
+      "specs": [
+        "Merk: Setab",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\066-koeltoonbank-merops-externe-koelunit-exclusief-div-kleurenopties-kantelruit-kopp.webp"
+    },
+    {
+      "name": "Koeltoonbank | MEROPS | Externe Koelunit (Exclusief) | Div. Kleuren/Opties | Kantelruit | Koppelbaar | Div. Breedten | Diepte 1144mm | Hoogte 1213mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-merops-externe-koelunit-div-kleuren-o.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/448784358/800x800x2/setab-koeltoonbank-merops-externe-koelunit-exclusi.webp",
+      "price_excl_btw": "EUR 2.409,00",
+      "price_incl_btw": "EUR 2.914,89",
+      "original_price_excl_btw": "EUR 3.219,00",
+      "original_price_incl_btw": "EUR 3.894,99",
+      "stock_status": "voorraad controleren",
+      "sku": "•  SET-MEROPSFG-RM-ST.937",
+      "specs": [
+        "Merk: Setab",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\067-koeltoonbank-merops-externe-koelunit-exclusief-div-kleurenopties-kantelruit-kopp.webp"
+    },
+    {
+      "name": "Koeltoonbank | VR FISH | 0°C/+2°C | Statisch | 0.31kW | Wielen (Geremd) | 1500x980x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-vr-fish-0c-2c-statisch-031kw-wielen-g.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413815943/800x800x2/diamond-koeltoonbank-vr-fish-0c-2c-statisch-031kw.webp",
+      "price_excl_btw": "EUR 2.409,00",
+      "price_incl_btw": "EUR 2.914,89",
+      "original_price_excl_btw": "EUR 3.212,00",
+      "original_price_incl_btw": "EUR 3.886,52",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-VR15-CR/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\068-koeltoonbank-vr-fish-0c2c-statisch-031kw-wielen-geremd-1500x980x1280hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | OWEN | +1°C/+10°C | Statisch | 0.63kW | Kantelruit | Gekoelde Reserve | 1500x1060x1310(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-owen-1c-10c-statisch-063kw--111274202.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413473260/800x800x2/combisteel-koeltoonbank-owen-1c-10c-statisch-063kw.webp",
+      "price_excl_btw": "EUR 2.412,00",
+      "price_incl_btw": "EUR 2.918,52",
+      "original_price_excl_btw": "EUR 3.350,00",
+      "original_price_incl_btw": "EUR 4.053,50",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7486.0020",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\069-koeltoonbank-owen-1c10c-statisch-063kw-kantelruit-gekoelde-reserve-1500x1060x131.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1265x940x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-161724258.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/491883898/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.428,00",
+      "price_incl_btw": "EUR 2.937,88",
+      "original_price_excl_btw": "EUR 2.800,00",
+      "original_price_incl_btw": "EUR 3.388,00",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-13-C",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\070-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1265x940x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1265x940x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-161707306.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/491805625/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.428,00",
+      "price_incl_btw": "EUR 2.937,88",
+      "original_price_excl_btw": "EUR 2.800,00",
+      "original_price_incl_btw": "EUR 3.388,00",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-13-RR",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\071-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1265x940x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1025x960x1105(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-161784833.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/492107113/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.429,00",
+      "price_incl_btw": "EUR 2.939,09",
+      "original_price_excl_btw": "EUR 2.802,00",
+      "original_price_incl_btw": "EUR 3.390,42",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-10-RCB",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\072-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1025x960x1105hm.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | 0°C/+6°C | Statisch | Wielen (Geremd) | 1500x985x1235(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-0c-6c-statisch-wielen-geremd-1500x.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/455870448/800x800x2/mastro-viskoeltoonbank-0c-6c-statisch-wielen-gerem.webp",
+      "price_excl_btw": "EUR 2.431,00",
+      "price_incl_btw": "EUR 2.941,51",
+      "original_price_excl_btw": "EUR 3.769,00",
+      "original_price_incl_btw": "EUR 4.560,49",
+      "stock_status": "voorraad controleren",
+      "sku": "•  MAS-HDC0010",
+      "specs": [
+        "Merk: Mastro",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\073-viskoeltoonbank-0c6c-statisch-wielen-geremd-1500x985x1235hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Geforceerd | Gekoelde Reserve | Kantelruit | 1025x960x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-geforceerd-162140874.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493527908/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-geforceerd-gek.webp",
+      "price_excl_btw": "EUR 2.432,00",
+      "price_incl_btw": "EUR 2.942,72",
+      "original_price_excl_btw": "EUR 3.044,00",
+      "original_price_incl_btw": "EUR 3.683,24",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-10-RC-TF",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\074-koeltoonbank-cve-serie-1c5c-geforceerd-gekoelde-reserve-kantelruit-1025x960x1235.webp"
+    },
+    {
+      "name": "Koeltoonbank | THOMAS | 0°C/+5°C | Geforceerd | Gekoelde Reserve | 1955x940x1200(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-thomas-0c-5c-geforceerd-gek-153030557.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/462744498/800x800x2/combisteel-koeltoonbank-thomas-0c-5c-geforceerd-ge.webp",
+      "price_excl_btw": "EUR 2.441,00",
+      "price_incl_btw": "EUR 2.953,61",
+      "original_price_excl_btw": "EUR 3.390,00",
+      "original_price_incl_btw": "EUR 4.101,90",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7090.0210",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\075-koeltoonbank-thomas-0c5c-geforceerd-gekoelde-reserve-1955x940x1200hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1265x960x1105(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-162102116.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493371306/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.466,00",
+      "price_incl_btw": "EUR 2.983,86",
+      "original_price_excl_btw": "EUR 3.091,00",
+      "original_price_incl_btw": "EUR 3.740,11",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-13-RCB",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\076-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1265x960x1105hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | ORLEANS | +4°C/+6°C | Statisch | 0.25kW | Reserve | 1000x810x1350(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-orleans-4c-6c-statisch-025kw-reserve.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/462233123/800x800x2/diamond-koeltoonbank-orleans-4c-6c-statisch-025kw.webp",
+      "price_excl_btw": "EUR 2.479,00",
+      "price_incl_btw": "EUR 2.999,59",
+      "original_price_excl_btw": "EUR 3.305,00",
+      "original_price_incl_btw": "EUR 3.999,05",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-OL104/B5-R/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\077-koeltoonbank-orleans-4c6c-statisch-025kw-reserve-1000x810x1350hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | ORLEANS | +4°C/+6°C | Statisch | 0.25kW | Reserve | 1000x810x1350(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-orleans-4c-6c-statisch-025k-108507246.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/462232993/800x800x2/diamond-koeltoonbank-orleans-4c-6c-statisch-025kw.webp",
+      "price_excl_btw": "EUR 2.479,00",
+      "price_incl_btw": "EUR 2.999,59",
+      "original_price_excl_btw": "EUR 3.305,00",
+      "original_price_incl_btw": "EUR 3.999,05",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-OL104/A2-R/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\078-koeltoonbank-orleans-4c6c-statisch-025kw-reserve-1000x810x1350hmm.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | -5°C | Plaatkoeling | Wielen | 1440x900x1200(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-5c-plaatkoeling-wielen-1440x900x12.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/478724800/800x800x2/mastro-viskoeltoonbank-5c-plaatkoeling-wielen-1440.webp",
+      "price_excl_btw": "EUR 2.480,00",
+      "price_incl_btw": "EUR 3.000,80",
+      "original_price_excl_btw": "EUR 3.849,00",
+      "original_price_incl_btw": "EUR 4.657,29",
+      "stock_status": "voorraad controleren",
+      "sku": "•  MAS-HDC0012",
+      "specs": [
+        "Merk: Mastro",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\079-viskoeltoonbank-5c-plaatkoeling-wielen-1440x900x1200hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | VINNIE | +1°C/+10°C | Statisch | 0.84kW | Kantelruit | Gekoelde Reserve | 2490x825x1230(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-vinnie-1c-10c-statisch-084kw-kantelru.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413473411/800x800x2/combisteel-koeltoonbank-vinnie-1c-10c-statisch-084.webp",
+      "price_excl_btw": "EUR 2.484,00",
+      "price_incl_btw": "EUR 3.005,64",
+      "original_price_excl_btw": "EUR 3.450,00",
+      "original_price_incl_btw": "EUR 4.174,50",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7486.0015",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\080-koeltoonbank-vinnie-1c10c-statisch-084kw-kantelruit-gekoelde-reserve-2490x825x12.webp"
+    },
+    {
+      "name": "Vleesvitrine | met koelmiddel convectie | +2/+8°C | 1250x850x1300(h)mm",
+      "url": "https://www.horecagemak.nl/vleesvitrine-met-koelmiddel-convectie-2-8c-1250x85.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/431366568/800x800x2/mg-hofmann-vleesvitrine-met-koelmiddel-convectie-2.webp",
+      "price_excl_btw": "EUR 2.499,00",
+      "price_incl_btw": "EUR 3.023,79",
+      "original_price_excl_btw": "EUR 5.100,00",
+      "original_price_incl_btw": "EUR 6.171,00",
+      "stock_status": "voorraad controleren",
+      "sku": "•  HOF-7K-FT125-B",
+      "specs": [
+        "Merk: MG Hofmann",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\081-vleesvitrine-met-koelmiddel-convectie-28c-1250x850x1300hmm.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | XL | 0°C/+4°C | Plaatkoeling | Zelfbediening (Schuifraam) | Optioneel Onderstel | 1000x882x400(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-xl-0c-4c-plaatkoeling-ze-155667434.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/476247891/800x800x2/sayl-viskoeltoonbank-xl-0c-4c-plaatkoeling-zelfbed.webp",
+      "price_excl_btw": "EUR 2.512,00",
+      "price_incl_btw": "EUR 3.039,52",
+      "original_price_excl_btw": "EUR 3.140,00",
+      "original_price_incl_btw": "EUR 3.799,40",
+      "stock_status": "voorraad controleren",
+      "sku": "•  SAY-VX3-P",
+      "specs": [
+        "Merk: SAYL",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\082-viskoeltoonbank-xl-0c4c-plaatkoeling-zelfbediening-schuifraam-optioneel-onderste.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | XL | 0°C/+4°C | Plaatkoeling | Zelfbediening (Schuifraam) | Optioneel Onderstel | 1000x882x400(h)mm",
+      "url": "https://www.horecagemak.nl/koelvitrine-vis-aisi-316-led-0c-4c-statisch-3x-gn1.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/476246035/800x800x2/sayl-viskoeltoonbank-xl-0c-4c-plaatkoeling-zelfbed.webp",
+      "price_excl_btw": "EUR 2.512,00",
+      "price_incl_btw": "EUR 3.039,52",
+      "original_price_excl_btw": "EUR 3.140,00",
+      "original_price_incl_btw": "EUR 3.799,40",
+      "stock_status": "voorraad controleren",
+      "sku": "•  SAY-VX3-N",
+      "specs": [
+        "Merk: SAYL",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\083-viskoeltoonbank-xl-0c4c-plaatkoeling-zelfbediening-schuifraam-optioneel-onderste.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1025x960x1300(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-162114307.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493423034/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.528,00",
+      "price_incl_btw": "EUR 3.058,88",
+      "original_price_excl_btw": "EUR 3.177,00",
+      "original_price_incl_btw": "EUR 3.844,17",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVEP-9-10-RC",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\084-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1025x960x1300hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1265x960x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-162113396.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493418071/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.535,00",
+      "price_incl_btw": "EUR 3.067,35",
+      "original_price_excl_btw": "EUR 3.187,00",
+      "original_price_incl_btw": "EUR 3.856,27",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-13-RC",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\085-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1265x960x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | BRABANT | +2°C/+8°C | Statisch | Gekoelde Reserve | Kantelruit | 1453x973x1195(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-brabant-2c-8c-statisch-geko-156957572.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/474299881/800x800x2/tefcold-koeltoonbank-brabant-2c-8c-statisch-gekoel.webp",
+      "price_excl_btw": "EUR 2.552,00",
+      "price_incl_btw": "EUR 3.087,92",
+      "original_price_excl_btw": "EUR 3.190,00",
+      "original_price_incl_btw": "EUR 3.859,90",
+      "stock_status": "voorraad controleren",
+      "sku": "•  TOP-52085",
+      "specs": [
+        "Merk: Tefcold",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\086-koeltoonbank-brabant-2c8c-statisch-gekoelde-reserve-kantelruit-1453x973x1195hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | BRABANT | +2°C/+8°C | Statisch | Gekoelde Reserve | Kantelruit | 1453x973x1195(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-brabant-2c-8c-statisch-geko-156955974.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/474294131/800x800x2/tefcold-koeltoonbank-brabant-2c-8c-statisch-gekoel.webp",
+      "price_excl_btw": "EUR 2.552,00",
+      "price_incl_btw": "EUR 3.087,92",
+      "original_price_excl_btw": "EUR 3.190,00",
+      "original_price_incl_btw": "EUR 3.859,90",
+      "stock_status": "voorraad controleren",
+      "sku": "•  TOP-52084",
+      "specs": [
+        "Merk: Tefcold",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\087-koeltoonbank-brabant-2c8c-statisch-gekoelde-reserve-kantelruit-1453x973x1195hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | WESLEY | 0°C/+7°C | Geforceerd | Gekoelde Reserve | 2590x902x1230(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-wesley-0c-7c-geforceerd-gekoelde-rese.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/481384963/800x800x2/combisteel-koeltoonbank-wesley-0c-7c-geforceerd-ge.webp",
+      "price_excl_btw": "EUR 2.556,00",
+      "price_incl_btw": "EUR 3.092,76",
+      "original_price_excl_btw": "EUR 3.550,00",
+      "original_price_incl_btw": "EUR 4.295,50",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7090.0100",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\088-koeltoonbank-wesley-0c7c-geforceerd-gekoelde-reserve-2590x902x1230hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | MOLINA | 0°C/+2°C | Geventileerd | 0.25kW | Kantelruit | Gekoelde Reserve | 1500x910x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-molina-0c-2c-geventileerd-0-123816288.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460559983/800x800x2/diamond-koeltoonbank-molina-0c-2c-geventileerd-025.webp",
+      "price_excl_btw": "EUR 2.561,00",
+      "price_incl_btw": "EUR 3.098,81",
+      "original_price_excl_btw": "EUR 3.414,00",
+      "original_price_incl_btw": "EUR 4.130,94",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-ML15/E8-VV/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\089-koeltoonbank-molina-0c2c-geventileerd-025kw-kantelruit-gekoelde-reserve-1500x910.webp"
+    },
+    {
+      "name": "Koeltoonbank | MOLINA | 0°C/+2°C | Geventileerd | 0.25kW | Kantelruit | Gekoelde Reserve | 1500x910x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-molina-0c-2c-geventileerd-0-123816241.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460560334/800x800x2/diamond-koeltoonbank-molina-0c-2c-geventileerd-025.webp",
+      "price_excl_btw": "EUR 2.561,00",
+      "price_incl_btw": "EUR 3.098,81",
+      "original_price_excl_btw": "EUR 3.414,00",
+      "original_price_incl_btw": "EUR 4.130,94",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-ML15/B5-VV/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\090-koeltoonbank-molina-0c2c-geventileerd-025kw-kantelruit-gekoelde-reserve-1500x910.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Geforceerd | Gekoelde Reserve | Kantelruit | 1265x940x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-geforceerd-161777462.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/492064130/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-geforceerd-gek.webp",
+      "price_excl_btw": "EUR 2.564,00",
+      "price_incl_btw": "EUR 3.102,44",
+      "original_price_excl_btw": "EUR 2.974,00",
+      "original_price_incl_btw": "EUR 3.598,54",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-13-C-TF",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\091-koeltoonbank-cve-serie-1c5c-geforceerd-gekoelde-reserve-kantelruit-1265x940x1235.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Geforceerd | Gekoelde Reserve | Kantelruit | 1265x940x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-geforceerd-161751534.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/491967058/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-geforceerd-gek.webp",
+      "price_excl_btw": "EUR 2.564,00",
+      "price_incl_btw": "EUR 3.102,44",
+      "original_price_excl_btw": "EUR 2.974,00",
+      "original_price_incl_btw": "EUR 3.598,54",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-13-RR-TF",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\092-koeltoonbank-cve-serie-1c5c-geforceerd-gekoelde-reserve-kantelruit-1265x940x1235.webp"
+    },
+    {
+      "name": "Koeltoonbank | OSCAR | +1°C/+10°C | Statisch | 0.63kW | Kantelruit | Gekoelde Reserve | 1584x815x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-oscar-1c-10c-statisch-063kw-111274357.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413506914/800x800x2/combisteel-koeltoonbank-oscar-1c-10c-statisch-063k.webp",
+      "price_excl_btw": "EUR 2.588,00",
+      "price_incl_btw": "EUR 3.131,48",
+      "original_price_excl_btw": "EUR 3.595,00",
+      "original_price_incl_btw": "EUR 4.349,95",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7486.0055",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\093-koeltoonbank-oscar-1c10c-statisch-063kw-kantelruit-gekoelde-reserve-1584x815x128.webp"
+    },
+    {
+      "name": "Koeltoonbank | MONACO | +2°C/+4°C | Statisch | Gekoelde Reserve | Kantelruit | 1050x1070x1277(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-monaco-2c-4c-statisch-gekoelde-reserv.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/469034722/800x800x2/diamond-koeltoonbank-monaco-2c-4c-statisch-gekoeld.webp",
+      "price_excl_btw": "EUR 2.611,00",
+      "price_incl_btw": "EUR 3.159,31",
+      "original_price_excl_btw": "EUR 3.481,00",
+      "original_price_incl_btw": "EUR 4.212,01",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-CMN11-S3",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\094-koeltoonbank-monaco-2c4c-statisch-gekoelde-reserve-kantelruit-1050x1070x1277hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Geforceerd | Gekoelde Reserve | Kantelruit | 1265x960x1105(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-geforceerd-162139901.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493523696/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-geforceerd-gek.webp",
+      "price_excl_btw": "EUR 2.621,00",
+      "price_incl_btw": "EUR 3.171,41",
+      "original_price_excl_btw": "EUR 3.306,00",
+      "original_price_incl_btw": "EUR 4.000,26",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-13-RCB-TF",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\095-koeltoonbank-cve-serie-1c5c-geforceerd-gekoelde-reserve-kantelruit-1265x960x1105.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1505x940x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-161707815.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/491807370/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.637,00",
+      "price_incl_btw": "EUR 3.190,77",
+      "original_price_excl_btw": "EUR 3.067,00",
+      "original_price_incl_btw": "EUR 3.711,07",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-15-RR",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\096-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1505x940x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | SALINA80 | +3°C/+5°C | Geventileerd | 0.91kW | Gekoelde Reserve | 2480x900x1262(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-salina80-3c-5c-geventileerd-091kw-gek.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/414378436/800x800x2/mastro-koeltoonbank-salina80-3c-5c-geventileerd-09.webp",
+      "price_excl_btw": "EUR 2.646,00",
+      "price_incl_btw": "EUR 3.201,66",
+      "original_price_excl_btw": "EUR 4.117,00",
+      "original_price_incl_btw": "EUR 4.981,57",
+      "stock_status": "voorraad controleren",
+      "sku": "•  MAS-BGB0313",
+      "specs": [
+        "Merk: Mastro",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\097-koeltoonbank-salina80-3c5c-geventileerd-091kw-gekoelde-reserve-2480x900x1262hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Geforceerd | Gekoelde Reserve | Kantelruit | 1025x960x1300(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-geforceerd-162153510.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493588524/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-geforceerd-gek.webp",
+      "price_excl_btw": "EUR 2.652,00",
+      "price_incl_btw": "EUR 3.208,92",
+      "original_price_excl_btw": "EUR 3.348,00",
+      "original_price_incl_btw": "EUR 4.051,08",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVEP-9-10-RC-TF",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\098-koeltoonbank-cve-serie-1c5c-geforceerd-gekoelde-reserve-kantelruit-1025x960x1300.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Geforceerd | Gekoelde Reserve | Kantelruit | 1025x1080x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-geforceerd-162204376.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493831704/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-geforceerd-gek.webp",
+      "price_excl_btw": "EUR 2.656,00",
+      "price_incl_btw": "EUR 3.213,76",
+      "original_price_excl_btw": "EUR 3.354,00",
+      "original_price_incl_btw": "EUR 4.058,34",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-10-10-RR-TF",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\099-koeltoonbank-cve-serie-1c5c-geforceerd-gekoelde-reserve-kantelruit-1025x1080x123.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1505x940x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-161724654.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/491885542/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.659,00",
+      "price_incl_btw": "EUR 3.217,39",
+      "original_price_excl_btw": "EUR 3.095,00",
+      "original_price_incl_btw": "EUR 3.744,95",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-15-C",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\100-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1505x940x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | MOLINA | +4°C/+6°C | Statisch | 0.32kW | Kantelruit | Gekoelde Reserve | 2000x910x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-molina-4c-6c-statisch-032kw-kantelrui.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460559960/800x800x2/diamond-koeltoonbank-molina-4c-6c-statisch-032kw-k.webp",
+      "price_excl_btw": "EUR 2.664,00",
+      "price_incl_btw": "EUR 3.223,44",
+      "original_price_excl_btw": "EUR 3.551,00",
+      "original_price_incl_btw": "EUR 4.296,71",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-ML20/E8-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\101-koeltoonbank-molina-4c6c-statisch-032kw-kantelruit-gekoelde-reserve-2000x910x128.webp"
+    },
+    {
+      "name": "Koeltoonbank | MOLINA | +4°C/+6°C | Statisch | 0.32kW | Kantelruit | Gekoelde Reserve | 2000x910x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-molina-4c-6c-statisch-032kw-123816531.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/460560304/800x800x2/diamond-koeltoonbank-molina-4c-6c-statisch-032kw-k.webp",
+      "price_excl_btw": "EUR 2.664,00",
+      "price_incl_btw": "EUR 3.223,44",
+      "original_price_excl_btw": "EUR 3.551,00",
+      "original_price_incl_btw": "EUR 4.296,71",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-ML20/B5-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\102-koeltoonbank-molina-4c6c-statisch-032kw-kantelruit-gekoelde-reserve-2000x910x128.webp"
+    },
+    {
+      "name": "Koeltoonbank | LOMA | 0°C/+4°C | Plaatkoeling | Neutrale Reserve | Wielen (Geremd) | 1000x882x1200(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-loma-0c-4c-plaatkoeling-neutrale-rese.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/476250301/800x800x2/sayl-koeltoonbank-loma-0c-4c-plaatkoeling-neutrale.webp",
+      "price_excl_btw": "EUR 2.672,00",
+      "price_incl_btw": "EUR 3.233,12",
+      "original_price_excl_btw": "EUR 3.340,00",
+      "original_price_incl_btw": "EUR 4.041,40",
+      "stock_status": "voorraad controleren",
+      "sku": "•  SAY-LM10P",
+      "specs": [
+        "Merk: SAYL",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\103-koeltoonbank-loma-0c4c-plaatkoeling-neutrale-reserve-wielen-geremd-1000x882x1200.webp"
+    },
+    {
+      "name": "Koeltoonbank | OWEN | +1°C/+10°C | Statisch | 0.84kW | Kantelruit | Gekoelde Reserve | 2000x1060x1310(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-owen-1c-10c-statisch-084kw--111274220.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413507901/800x800x2/combisteel-koeltoonbank-owen-1c-10c-statisch-084kw.webp",
+      "price_excl_btw": "EUR 2.678,00",
+      "price_incl_btw": "EUR 3.240,38",
+      "original_price_excl_btw": "EUR 3.720,00",
+      "original_price_incl_btw": "EUR 4.501,20",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7486.0025",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\104-koeltoonbank-owen-1c10c-statisch-084kw-kantelruit-gekoelde-reserve-2000x1060x131.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1985x800x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-160325112.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/486700335/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.693,00",
+      "price_incl_btw": "EUR 3.258,53",
+      "original_price_excl_btw": "EUR 3.138,00",
+      "original_price_incl_btw": "EUR 3.796,98",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-8-20-R",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\105-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1985x800x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1505x960x1105(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-162102983.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493374304/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.696,00",
+      "price_incl_btw": "EUR 3.262,16",
+      "original_price_excl_btw": "EUR 3.410,00",
+      "original_price_incl_btw": "EUR 4.126,10",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-15-RCB",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\106-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1505x960x1105hm.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | -5°C | Plaatkoeling | Zelfbediening | Wielen | 2320x920x1025(h)mm",
+      "url": "https://www.horecagemak.nl/viskoeltoonbank-5c-plaatkoeling-zelfbedi-158449840.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/478728243/800x800x2/combisteel-viskoeltoonbank-5c-plaatkoeling-zelfbed.webp",
+      "price_excl_btw": "EUR 2.703,00",
+      "price_incl_btw": "EUR 3.270,63",
+      "original_price_excl_btw": "EUR 3.754,00",
+      "original_price_incl_btw": "EUR 4.542,34",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7083.0030",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\107-viskoeltoonbank-5c-plaatkoeling-zelfbediening-wielen-2320x920x1025hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | MORRIS | +1°C/+10°C | Statisch | 0.63kW | Kantelruit | Gekoelde Reserve | 1584x1095x1280(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-morris-1c-10c-statisch-063k-111274578.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413507673/800x800x2/combisteel-koeltoonbank-morris-1c-10c-statisch-063.webp",
+      "price_excl_btw": "EUR 2.707,00",
+      "price_incl_btw": "EUR 3.275,47",
+      "original_price_excl_btw": "EUR 3.760,00",
+      "original_price_incl_btw": "EUR 4.549,60",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COM-7486.0070",
+      "specs": [
+        "Merk: CombiSteel",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\108-koeltoonbank-morris-1c10c-statisch-063kw-kantelruit-gekoelde-reserve-1584x1095x1.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Geforceerd | Gekoelde Reserve | Kantelruit | 1265x960x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-geforceerd-162150139.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493571953/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-geforceerd-gek.webp",
+      "price_excl_btw": "EUR 2.718,00",
+      "price_incl_btw": "EUR 3.288,78",
+      "original_price_excl_btw": "EUR 3.440,00",
+      "original_price_incl_btw": "EUR 4.162,40",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-13-RC-TF",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\109-koeltoonbank-cve-serie-1c5c-geforceerd-gekoelde-reserve-kantelruit-1265x960x1235.webp"
+    },
+    {
+      "name": "Koeltoonbank | MONACO | +2°C/+4°C | Geforceerd | Gekoelde Reserve | Kantelruit | 1050x1070x1277(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-monaco-2c-4c-geforceerd-gekoelde-rese.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/469037104/800x800x2/diamond-koeltoonbank-monaco-2c-4c-geforceerd-gekoe.webp",
+      "price_excl_btw": "EUR 2.748,00",
+      "price_incl_btw": "EUR 3.325,08",
+      "original_price_excl_btw": "EUR 3.664,00",
+      "original_price_incl_btw": "EUR 4.433,44",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-CMN11-V3",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\110-koeltoonbank-monaco-2c4c-geforceerd-gekoelde-reserve-kantelruit-1050x1070x1277hm.webp"
+    },
+    {
+      "name": "Vleesvitrine | met koelmiddel convectie | +2/+8°C | 1500x850x1300(h)mm",
+      "url": "https://www.horecagemak.nl/vleesvitrine-met-koelmiddel-convectie-2-8c-1500x85.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/431366556/800x800x2/mg-hofmann-vleesvitrine-met-koelmiddel-convectie-2.webp",
+      "price_excl_btw": "EUR 2.749,00",
+      "price_incl_btw": "EUR 3.326,29",
+      "original_price_excl_btw": "EUR 5.620,00",
+      "original_price_incl_btw": "EUR 6.800,20",
+      "stock_status": "voorraad controleren",
+      "sku": "•  HOF-7K-FT150-B",
+      "specs": [
+        "Merk: MG Hofmann",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\111-vleesvitrine-met-koelmiddel-convectie-28c-1500x850x1300hmm.webp"
+    },
+    {
+      "name": "Vleesvitrine | met koelmiddel convectie | +2/+8°C | 1500x850x1300(h)mm",
+      "url": "https://www.horecagemak.nl/vleesvitrine-met-koelmiddel-convectie-2--113748172.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/431366561/800x800x2/mg-hofmann-vleesvitrine-met-koelmiddel-convectie-2.webp",
+      "price_excl_btw": "EUR 2.749,00",
+      "price_incl_btw": "EUR 3.326,29",
+      "original_price_excl_btw": "EUR 5.620,00",
+      "original_price_incl_btw": "EUR 6.800,20",
+      "stock_status": "voorraad controleren",
+      "sku": "•  HOF-7K-FT150",
+      "specs": [
+        "Merk: MG Hofmann",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\112-vleesvitrine-met-koelmiddel-convectie-28c-1500x850x1300hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | MEROPS | -1°C/+5°C | Geforceerd | Div. Kleuren/Opties | Zelfbediening | Koppelbaar | Div. Breedten | Diepte 1167mm | Hoogte 855mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-merops-1c-5c-geforceerd-div-149367314.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/449569978/800x800x2/setab-koeltoonbank-merops-1c-5c-geforceerd-div-kle.webp",
+      "price_excl_btw": "EUR 2.759,00",
+      "price_incl_btw": "EUR 3.338,39",
+      "original_price_excl_btw": "EUR 3.679,00",
+      "original_price_incl_btw": "EUR 4.451,59",
+      "stock_status": "voorraad controleren",
+      "sku": "•  SET-MEROPSCG-PL-SS.937",
+      "specs": [
+        "Merk: Setab",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\113-koeltoonbank-merops-1c5c-geforceerd-div-kleurenopties-zelfbediening-koppelbaar-d.webp"
+    },
+    {
+      "name": "Koeltoonbank | MEROPS | -1°C/+5°C | Geforceerd | Div. Kleuren/Opties | Zelfbediening | Koppelbaar | Div. Breedten | Diepte 1144mm | Hoogte 855mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-merops-1c-5c-geforceerd-div-kleuren-o.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/448788650/800x800x2/setab-koeltoonbank-merops-1c-5c-geforceerd-div-kle.webp",
+      "price_excl_btw": "EUR 2.759,00",
+      "price_incl_btw": "EUR 3.338,39",
+      "original_price_excl_btw": "EUR 3.679,00",
+      "original_price_incl_btw": "EUR 4.451,59",
+      "stock_status": "voorraad controleren",
+      "sku": "•  SET-MEROPSFG-PL-SS.937",
+      "specs": [
+        "Merk: Setab",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\114-koeltoonbank-merops-1c5c-geforceerd-div-kleurenopties-zelfbediening-koppelbaar-d.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1265x960x1300(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-162114544.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493423676/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.766,00",
+      "price_incl_btw": "EUR 3.346,86",
+      "original_price_excl_btw": "EUR 3.506,00",
+      "original_price_incl_btw": "EUR 4.242,26",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVEP-9-13-RC",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\115-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1265x960x1300hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | SERIE MR | +3°C/+5°C | Geventileerd | 0.7kW | Kantelruit | Gekoelde Reserve | 1520x1175x1234(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-serie-mr-3c-5c-geventileerd-07kw-kant.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/415080896/800x800x2/mastro-koeltoonbank-serie-mr-3c-5c-geventileerd-07.webp",
+      "price_excl_btw": "EUR 2.768,00",
+      "price_incl_btw": "EUR 3.349,28",
+      "original_price_excl_btw": "EUR 4.315,00",
+      "original_price_incl_btw": "EUR 5.221,15",
+      "stock_status": "voorraad controleren",
+      "sku": "•  MAS-BGB0316/TN",
+      "specs": [
+        "Merk: Mastro",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\116-koeltoonbank-serie-mr-3c5c-geventileerd-07kw-kantelruit-gekoelde-reserve-1520x11.webp"
+    },
+    {
+      "name": "Koeltoonbank | CVE-SERIE | -1°C/+5°C | Statisch | Gekoelde Reserve | Kantelruit | 1505x960x1235(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-cve-serie-1c-5c-statisch-ge-162113484.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/493418483/800x800x2/coreco-koeltoonbank-cve-serie-1c-5c-statisch-gekoe.webp",
+      "price_excl_btw": "EUR 2.772,00",
+      "price_incl_btw": "EUR 3.354,12",
+      "original_price_excl_btw": "EUR 3.515,00",
+      "original_price_incl_btw": "EUR 4.253,15",
+      "stock_status": "voorraad controleren",
+      "sku": "•  COR-CVE-9-15-RC",
+      "specs": [
+        "Merk: Coreco",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\117-koeltoonbank-cve-serie-1c5c-statisch-gekoelde-reserve-kantelruit-1505x960x1235hm.webp"
+    },
+    {
+      "name": "Koeltoonbank | ORLEANS | +4°C/+6°C | Statisch | 0.25kW | Reserve | 1500x810x1350(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-orleans-4c-6c-statisch-025k-108507255.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/462233353/800x800x2/diamond-koeltoonbank-orleans-4c-6c-statisch-025kw.webp",
+      "price_excl_btw": "EUR 2.798,00",
+      "price_incl_btw": "EUR 3.385,58",
+      "original_price_excl_btw": "EUR 3.730,00",
+      "original_price_incl_btw": "EUR 4.513,30",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-OL150/B5-R/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\118-koeltoonbank-orleans-4c6c-statisch-025kw-reserve-1500x810x1350hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | ORLEANS | +4°C/+6°C | Statisch | 0.25kW | Reserve | 1500x810x1350(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-orleans-4c-6c-statisch-025k-108507252.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/462233371/800x800x2/diamond-koeltoonbank-orleans-4c-6c-statisch-025kw.webp",
+      "price_excl_btw": "EUR 2.798,00",
+      "price_incl_btw": "EUR 3.385,58",
+      "original_price_excl_btw": "EUR 3.730,00",
+      "original_price_incl_btw": "EUR 4.513,30",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-OL150/A2-R/R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\119-koeltoonbank-orleans-4c6c-statisch-025kw-reserve-1500x810x1350hmm.webp"
+    },
+    {
+      "name": "Viskoeltoonbank | SAIGON | 0°C/+2°C | Plaatkoeling | Zelfbediening | 1500x1195x1000(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-saigon-0c-2c-statisch-062kw-self-serv.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413992284/800x800x2/diamond-viskoeltoonbank-saigon-0c-2c-plaatkoeling.webp",
+      "price_excl_btw": "EUR 2.809,00",
+      "price_incl_btw": "EUR 3.398,89",
+      "original_price_excl_btw": "EUR 3.745,00",
+      "original_price_incl_btw": "EUR 4.531,45",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-SG15BS/A1-R2",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\120-viskoeltoonbank-saigon-0c2c-plaatkoeling-zelfbediening-1500x1195x1000hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | DALLAS3 | -1°C/+5°C | Geforceerd | Kantelruit | Gekoelde Reserve | Koppelbaar | 1955x1145x1256(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-dallas3-1c-5c-geforceerd-04-107340534.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413463653/800x800x2/arneg-koeltoonbank-dallas3-1c-5c-geforceerd-kantel.webp",
+      "price_excl_btw": "EUR 9.133,00",
+      "price_incl_btw": "EUR 11.050,93",
+      "stock_status": "voorraad controleren",
+      "sku": "•  VEL-DLG1875",
+      "specs": [
+        "Merk: Arneg",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\121-koeltoonbank-dallas3-1c5c-geforceerd-kantelruit-gekoelde-reserve-koppelbaar-1955.webp"
+    },
+    {
+      "name": "Koeltoonbank | MAJOR2 | 0°C/+2°C | Geforceerd | 0.86kW | Kantelruit | Gekoelde Reserve | Koppelbaar | 2580x1185x1310(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-major2-0c-2c-geforceerd-086kw-kantelr.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/414429846/800x800x2/oscartielle-koeltoonbank-major2-0c-2c-geforceerd-0.webp",
+      "price_excl_btw": "EUR 9.262,00",
+      "price_incl_btw": "EUR 11.207,02",
+      "stock_status": "voorraad controleren",
+      "sku": "•  VEL-OTMJ140A",
+      "specs": [
+        "Merk: Oscartielle",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\122-koeltoonbank-major2-0c2c-geforceerd-086kw-kantelruit-gekoelde-reserve-koppelbaar.webp"
+    },
+    {
+      "name": "Koeltoonbank | SERIE SOC | 0°C/+4°C | Geforceerd | Gekoelde Reserve | Liftruit | Koppelbaar | 3789x1120x1190(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-serie-soc-0c-4c-geforceerd-158577497.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/479157871/800x800x2/tefcold-koeltoonbank-serie-soc-0c-4c-geforceerd-ge.webp",
+      "price_excl_btw": "EUR 9.512,00",
+      "price_incl_btw": "EUR 11.509,52",
+      "original_price_excl_btw": "EUR 11.890,00",
+      "original_price_incl_btw": "EUR 14.386,90",
+      "stock_status": "voorraad controleren",
+      "sku": "•  TOP-55475",
+      "specs": [
+        "Merk: Tefcold",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\123-koeltoonbank-serie-soc-0c4c-geforceerd-gekoelde-reserve-liftruit-koppelbaar-3789.webp"
+    },
+    {
+      "name": "Koeltoonbank | SERIE SOC | 0°C/+4°C | Geforceerd | Gekoelde Reserve | Liftruit | Koppelbaar | 3789x1120x1190(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-serie-soc-0c-4c-geforceerd-152789354.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/461795614/800x800x2/tefcold-koeltoonbank-serie-soc-0c-4c-geforceerd-ge.webp",
+      "price_excl_btw": "EUR 9.512,00",
+      "price_incl_btw": "EUR 11.509,52",
+      "original_price_excl_btw": "EUR 11.890,00",
+      "original_price_incl_btw": "EUR 14.386,90",
+      "stock_status": "voorraad controleren",
+      "sku": "•  TOP-54148",
+      "specs": [
+        "Merk: Tefcold",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\124-koeltoonbank-serie-soc-0c4c-geforceerd-gekoelde-reserve-liftruit-koppelbaar-3789.webp"
+    },
+    {
+      "name": "Koeltoonbank | ZARA2 | 0°C/+2°C | Geforceerd | 0.88kW | Kantelruit | Gekoelde Reserve | Koppelbaar | 3205x1130x1230(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-zara2-0c-2c-geforceerd-088kw-kantelru.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/414425207/800x800x2/oscartielle-koeltoonbank-zara2-0c-2c-geforceerd-08.webp",
+      "price_excl_btw": "EUR 9.612,00",
+      "price_incl_btw": "EUR 11.630,52",
+      "stock_status": "voorraad controleren",
+      "sku": "•  VEL-OTZB1300A",
+      "specs": [
+        "Merk: Oscartielle",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\125-koeltoonbank-zara2-0c2c-geforceerd-088kw-kantelruit-gekoelde-reserve-koppelbaar-.webp"
+    },
+    {
+      "name": "Koeltoonbank | PORTO | 0°C/+2°C | Geforceerd | Gekoelde Reserve | Liftruit | 3810x1114x1210(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-porto-0c-2c-geforceerd-geko-154974589.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/469041109/800x800x2/diamond-koeltoonbank-porto-0c-2c-geforceerd-gekoel.webp",
+      "price_excl_btw": "EUR 9.678,00",
+      "price_incl_btw": "EUR 11.710,38",
+      "original_price_excl_btw": "EUR 12.904,00",
+      "original_price_incl_btw": "EUR 15.613,84",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-DPT38-V5",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\126-koeltoonbank-porto-0c2c-geforceerd-gekoelde-reserve-liftruit-3810x1114x1210hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | AMALIA | -1°C/+5°C | Geventileerd | 1.26kW | Gekoelde Reserve | 3810x1114x1210(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-amalia-1c-5c-geventileerd-126kw-gekoe.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/427300411/800x800x2/mafirol-koeltoonbank-amalia-1c-5c-geventileerd-126.webp",
+      "price_excl_btw": "EUR 9.864,00",
+      "price_incl_btw": "EUR 11.935,44",
+      "original_price_excl_btw": "EUR 12.330,00",
+      "original_price_incl_btw": "EUR 14.919,30",
+      "stock_status": "voorraad controleren",
+      "sku": "•  TOP-45843",
+      "specs": [
+        "Merk: Mafirol",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\127-koeltoonbank-amalia-1c5c-geventileerd-126kw-gekoelde-reserve-3810x1114x1210hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | MAJOR2 | 0°C/+2°C | Geforceerd | Zelfbediening | Gekoelde Reserve | Koppelbaar | 3830x1185x890(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-major2-0c-2c-geforceerd-113kw-self-se.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/414380990/800x800x2/oscartielle-koeltoonbank-major2-0c-2c-geforceerd-z.webp",
+      "price_excl_btw": "EUR 10.018,00",
+      "price_incl_btw": "EUR 12.121,78",
+      "stock_status": "voorraad controleren",
+      "sku": "•  VEL-OTMJ260",
+      "specs": [
+        "Merk: Oscartielle",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\128-koeltoonbank-major2-0c2c-geforceerd-zelfbediening-gekoelde-reserve-koppelbaar-38.webp"
+    },
+    {
+      "name": "Koeltoonbank | DALLAS3 | -1°C/+5°C | Geforceerd | Kantelruit | Gekoelde Reserve | Koppelbaar | 2580x1145x1256(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-dallas3-1c-5c-geforceerd-06-107341384.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413466851/800x800x2/arneg-koeltoonbank-dallas3-1c-5c-geforceerd-kantel.webp",
+      "price_excl_btw": "EUR 10.271,00",
+      "price_incl_btw": "EUR 12.427,91",
+      "stock_status": "voorraad controleren",
+      "sku": "•  VEL-DLG2500",
+      "specs": [
+        "Merk: Arneg",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\129-koeltoonbank-dallas3-1c5c-geforceerd-kantelruit-gekoelde-reserve-koppelbaar-2580.webp"
+    },
+    {
+      "name": "Vleeskoeltoonbank | CORSICO | -1°C/+7°C | Geforceerd | Kantelruit | 2500x1150x860/1200(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-corsico-1c-7c-geforceerd-ka-157637317.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/476364163/800x800x2/diamond-vleeskoeltoonbank-corsico-1c-7c-geforceerd.webp",
+      "price_excl_btw": "EUR 10.429,00",
+      "price_incl_btw": "EUR 12.619,09",
+      "original_price_excl_btw": "EUR 13.905,00",
+      "original_price_incl_btw": "EUR 16.825,05",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-COR25-V5",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\130-vleeskoeltoonbank-corsico-1c7c-geforceerd-kantelruit-2500x1150x8601200hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | MAJOR2 | 0°C/+2°C | Geforceerd | 1.12kW | Kantelruit | Gekoelde Reserve | Koppelbaar | 3205x1185x1310(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-major2-0c-2c-geforceerd-112kw-kantelr.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/414430039/800x800x2/oscartielle-koeltoonbank-major2-0c-2c-geforceerd-1.webp",
+      "price_excl_btw": "EUR 10.692,00",
+      "price_incl_btw": "EUR 12.937,32",
+      "stock_status": "voorraad controleren",
+      "sku": "•  VEL-OTMJ150A",
+      "specs": [
+        "Merk: Oscartielle",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\131-koeltoonbank-major2-0c2c-geforceerd-112kw-kantelruit-gekoelde-reserve-koppelbaar.webp"
+    },
+    {
+      "name": "Koeltoonbank (Open Hoek 90°) | MAJOR2 | 0°C/+2°C | Geforceerd | 0.49kW | Kantelruit | Koppelbaar | 1410x1185x1310(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-open-hoek-90-major2-0c-2c-geforceerd.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/414435619/800x800x2/oscartielle-koeltoonbank-open-hoek-90-major2-0c-2c.webp",
+      "price_excl_btw": "EUR 10.693,00",
+      "price_incl_btw": "EUR 12.938,53",
+      "stock_status": "voorraad controleren",
+      "sku": "•  VEL-OTMJ170A",
+      "specs": [
+        "Merk: Oscartielle",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\132-koeltoonbank-open-hoek-90-major2-0c2c-geforceerd-049kw-kantelruit-koppelbaar-141.webp"
+    },
+    {
+      "name": "Vleeskoeltoonbank | CORSICO | -1°C/+7°C | Geforceerd | Kantelruit | 3125x1150x860/1200(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-corsico-1c-7c-geforceerd-kantelruit-3.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/476364196/800x800x2/diamond-vleeskoeltoonbank-corsico-1c-7c-geforceerd.webp",
+      "price_excl_btw": "EUR 10.904,00",
+      "price_incl_btw": "EUR 13.193,84",
+      "original_price_excl_btw": "EUR 14.538,00",
+      "original_price_incl_btw": "EUR 17.590,98",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-COR32-V6",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\133-vleeskoeltoonbank-corsico-1c7c-geforceerd-kantelruit-3125x1150x8601200hmm.webp"
+    },
+    {
+      "name": "Complete lijn | Bain marie | Saladette | Neutrale vitrine | Koelvitrine | Kassa unit",
+      "url": "https://www.horecagemak.nl/complete-line-bain-marie-saladette-neutrale-vitrin.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/431092659/800x800x2/luxus-complete-lijn-bain-marie-saladette-neutrale.webp",
+      "price_excl_btw": "EUR 11.499,00",
+      "price_incl_btw": "EUR 13.913,79",
+      "original_price_excl_btw": "EUR 15.680,00",
+      "original_price_incl_btw": "EUR 18.972,80",
+      "stock_status": "voorraad controleren",
+      "sku": "•  LUX-7500",
+      "specs": [
+        "Merk: Luxus",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\134-complete-lijn-bain-marie-saladette-neutrale-vitrine-koelvitrine-kassa-unit.webp"
+    },
+    {
+      "name": "Koeltoonbank | DALLAS3 | -1°C/+5°C | Geforceerd | Kantelruit | Gekoelde Reserve | Koppelbaar | 3205x1145x1256(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-dallas3-1c-5c-geforceerd-08-107343063.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413467072/800x800x2/arneg-koeltoonbank-dallas3-1c-5c-geforceerd-kantel.webp",
+      "price_excl_btw": "EUR 11.725,00",
+      "price_incl_btw": "EUR 14.187,25",
+      "stock_status": "voorraad controleren",
+      "sku": "•  VEL-DLG3125",
+      "specs": [
+        "Merk: Arneg",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\135-koeltoonbank-dallas3-1c5c-geforceerd-kantelruit-gekoelde-reserve-koppelbaar-3205.webp"
+    },
+    {
+      "name": "Koeltoonbank | MAJOR2 | 0°C/+2°C | Geforceerd | 1.24kW | Kantelruit | Gekoelde Reserve | Koppelbaar | 3830x1185x1310(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-major2-0c-2c-geforceerd-124kw-kantelr.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/414430161/800x800x2/oscartielle-koeltoonbank-major2-0c-2c-geforceerd-1.webp",
+      "price_excl_btw": "EUR 12.485,00",
+      "price_incl_btw": "EUR 15.106,85",
+      "stock_status": "voorraad controleren",
+      "sku": "•  VEL-OTMJ160A",
+      "specs": [
+        "Merk: Oscartielle",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\136-koeltoonbank-major2-0c2c-geforceerd-124kw-kantelruit-gekoelde-reserve-koppelbaar.webp"
+    },
+    {
+      "name": "Vleeskoeltoonbank | CORSICO | -1°C/+7°C | Geforceerd | Kantelruit | 3750x1150x860/1200(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-corsico-1c-7c-geforceerd-ka-157637345.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/476364255/800x800x2/diamond-vleeskoeltoonbank-corsico-1c-7c-geforceerd.webp",
+      "price_excl_btw": "EUR 13.078,00",
+      "price_incl_btw": "EUR 15.824,38",
+      "original_price_excl_btw": "EUR 17.437,00",
+      "original_price_incl_btw": "EUR 21.098,77",
+      "stock_status": "voorraad controleren",
+      "sku": "•  DIA-COR38-V7",
+      "specs": [
+        "Merk: Diamond",
+        "Garantie: 1 jaar"
+      ],
+      "image_local": "images\\137-vleeskoeltoonbank-corsico-1c7c-geforceerd-kantelruit-3750x1150x8601200hmm.webp"
+    },
+    {
+      "name": "Koeltoonbank | DALLAS3 | -1°C/+5°C | Geforceerd | Kantelruit | Gekoelde Reserve | Koppelbaar | 3830x1145x1256(h)mm",
+      "url": "https://www.horecagemak.nl/koeltoonbank-dallas3-1c-5c-geforceerd-09-138170510.html",
+      "image_url": "https://cdn.webshopapp.com/shops/291748/files/413468480/800x800x2/arneg-koeltoonbank-dallas3-1c-5c-geforceerd-kantel.webp",
+      "price_excl_btw": "EUR 13.500,00",
+      "price_incl_btw": "EUR 16.335,00",
+      "stock_status": "voorraad controleren",
+      "sku": "•  VEL-DLG3750",
+      "specs": [
+        "Merk: Arneg",
+        "Garantie: 2 jaar"
+      ],
+      "image_local": "images\\138-koeltoonbank-dallas3-1c5c-geforceerd-kantelruit-gekoelde-reserve-koppelbaar-3830.webp"
+    }
+  ]
+}
